@@ -1,0 +1,6 @@
+{
+	"dataSourceUrl": "https://www.googleapis.com/fitness/v1/users/me/dataSources",
+	"header": {
+		"user-agent": "BigGuyWhoKills"
+	}
+}

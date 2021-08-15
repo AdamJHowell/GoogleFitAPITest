@@ -1,0 +1,3849 @@
+https://fitness.googleapis.com/fitness/v1/users/me/dataSources
+
+GET /fitness/v1/users/me/dataSources HTTP/1.1
+Host: fitness.googleapis.com
+Content-length: 0
+Authorization: Bearer ya29.a0ARrdaM-e0Nrdce3IUFVZi4Ux59au06JJw5tFrlLARzI7rZHsYrDKFRCrVQJgCtzh-bMCacBD6jEKxlva0MUaVS2ZKzOEn5qhoj82CkySwMJ5yt4jHHl0THLxNPURh27LcMpy8C0tNlPf2ols5IL5pAJFU7HF
+
+HTTP/1.1 200 OK
+Content-length: 115252
+X-xss-protection: 0
+Content-location: https://fitness.googleapis.com/fitness/v1/users/me/dataSources
+X-content-type-options: nosniff
+Transfer-encoding: chunked
+Vary: Origin, X-Origin, Referer
+Server: ESF
+-content-encoding: gzip
+Cache-control: private
+Date: Sun, 15 Aug 2021 07:13:21 GMT
+X-frame-options: SAMEORIGIN
+Alt-svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-T051=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+Content-type: application/json; charset=UTF-8
+{
+  "dataSource": [
+    {
+      "dataStreamName": "top_level", 
+      "dataType": {
+        "field": [
+          {
+            "name": "duration", 
+            "format": "integer"
+          }
+        ], 
+        "name": "com.google.active_minutes"
+      }, 
+      "dataQualityStandard": [], 
+      "application": {
+        "packageName": "com.google.android.fit"
+      }, 
+      "device": {
+        "model": "Q Explorist HR", 
+        "version": "", 
+        "type": "watch", 
+        "uid": "406b5320", 
+        "manufacturer": "Compal"
+      }, 
+      "dataStreamId": "derived:com.google.active_minutes:com.google.android.fit:Compal:Q Explorist HR:406b5320:top_level", 
+      "type": "derived"
+    }, 
+    {
+      "dataStreamName": "top_level", 
+      "dataType": {
+        "field": [
+          {
+            "name": "duration", 
+            "format": "integer"
+          }
+        ], 
+        "name": "com.google.active_minutes"
+      }, 
+      "dataQualityStandard": [], 
+      "application": {
+        "packageName": "com.google.android.fit"
+      }, 
+      "device": {
+        "model": "Redmi Note 8 Pro", 
+        "version": "", 
+        "type": "phone", 
+        "uid": "c1b4b9e3", 
+        "manufacturer": "Xiaomi"
+      }, 
+      "dataStreamId": "derived:com.google.active_minutes:com.google.android.fit:Xiaomi:Redmi Note 8 Pro:c1b4b9e3:top_level", 
+      "type": "derived"
+    }, 
+    {
+      "dataQualityStandard": [], 
+      "dataType": {
+        "field": [
+          {
+            "optional": true, 
+            "name": "duration", 
+            "format": "integer"
+          }
+        ], 
+        "name": "com.google.active_minutes"
+      }, 
+      "dataStreamName": "merge_active_minutes", 
+      "application": {
+        "packageName": "com.google.android.gms", 
+        "version": "1"
+      }, 
+      "dataStreamId": "derived:com.google.active_minutes:com.google.android.gms:merge_active_minutes", 
+      "type": "derived"
+    }, 
+    {
+      "dataStreamName": "session_activity_segment", 
+      "dataType": {
+        "field": [
+          {
+            "name": "activity", 
+            "format": "integer"
+          }
+        ], 
+        "name": "com.google.activity.segment"
+      }, 
+      "dataQualityStandard": [], 
+      "application": {
+        "packageName": "com.google.android.apps.fitness"
+      }, 
+      "device": {
+        "model": "Q Explorist HR", 
+        "version": "", 
+        "type": "watch", 
+        "uid": "406b5320", 
+        "manufacturer": "Compal"
+      }, 
+      "dataStreamId": "derived:com.google.activity.segment:com.google.android.apps.fitness:Compal:Q Explorist HR:406b5320:session_activity_segment", 
+      "type": "derived"
+    }, 
+    {
+      "dataStreamName": "session_activity_segment", 
+      "dataType": {
+        "field": [
+          {
+            "name": "activity", 
+            "format": "integer"
+          }
+        ], 
+        "name": "com.google.activity.segment"
+      }, 
+      "dataQualityStandard": [], 
+      "application": {
+        "packageName": "com.google.android.apps.fitness"
+      }, 
+      "device": {
+        "model": "SAMSUNG-SM-G930A", 
+        "version": "", 
+        "type": "phone", 
+        "uid": "74ff53d7", 
+        "manufacturer": "samsung"
+      }, 
+      "dataStreamId": "derived:com.google.activity.segment:com.google.android.apps.fitness:samsung:SAMSUNG-SM-G930A:74ff53d7:session_activity_segment", 
+      "type": "derived"
+    }, 
+    {
+      "dataStreamName": "session_activity_segment", 
+      "dataType": {
+        "field": [
+          {
+            "name": "activity", 
+            "format": "integer"
+          }
+        ], 
+        "name": "com.google.activity.segment"
+      }, 
+      "dataQualityStandard": [], 
+      "application": {
+        "packageName": "com.google.android.apps.fitness"
+      }, 
+      "device": {
+        "model": "SAMSUNG-SM-G930A", 
+        "version": "", 
+        "type": "phone", 
+        "uid": "643394b0", 
+        "manufacturer": "samsung"
+      }, 
+      "dataStreamId": "derived:com.google.activity.segment:com.google.android.apps.fitness:samsung:SAMSUNG-SM-G930A:643394b0:session_activity_segment", 
+      "type": "derived"
+    }, 
+    {
+      "dataQualityStandard": [], 
+      "dataType": {
+        "field": [
+          {
+            "name": "activity", 
+            "format": "integer"
+          }
+        ], 
+        "name": "com.google.activity.segment"
+      }, 
+      "dataStreamName": "session_activity_segment", 
+      "application": {
+        "packageName": "com.google.android.apps.fitness"
+      }, 
+      "dataStreamId": "derived:com.google.activity.segment:com.google.android.apps.fitness:session_activity_segment", 
+      "type": "derived"
+    }, 
+    {
+      "dataStreamName": "top_level", 
+      "dataType": {
+        "field": [
+          {
+            "name": "activity", 
+            "format": "integer"
+          }
+        ], 
+        "name": "com.google.activity.segment"
+      }, 
+      "dataQualityStandard": [], 
+      "application": {
+        "packageName": "com.google.android.fit"
+      }, 
+      "device": {
+        "model": "Q Explorist HR", 
+        "version": "", 
+        "type": "watch", 
+        "uid": "406b5320", 
+        "manufacturer": "Compal"
+      }, 
+      "dataStreamId": "derived:com.google.activity.segment:com.google.android.fit:Compal:Q Explorist HR:406b5320:top_level", 
+      "type": "derived"
+    }, 
+    {
+      "dataStreamName": "top_level", 
+      "dataType": {
+        "field": [
+          {
+            "name": "activity", 
+            "format": "integer"
+          }
+        ], 
+        "name": "com.google.activity.segment"
+      }, 
+      "dataQualityStandard": [], 
+      "application": {
+        "packageName": "com.google.android.fit"
+      }, 
+      "device": {
+        "model": "Redmi Note 8 Pro", 
+        "version": "", 
+        "type": "phone", 
+        "uid": "c1b4b9e3", 
+        "manufacturer": "Xiaomi"
+      }, 
+      "dataStreamId": "derived:com.google.activity.segment:com.google.android.fit:Xiaomi:Redmi Note 8 Pro:c1b4b9e3:top_level", 
+      "type": "derived"
+    }, 
+    {
+      "dataStreamName": "activity_from_steps", 
+      "dataType": {
+        "field": [
+          {
+            "name": "activity", 
+            "format": "integer"
+          }
+        ], 
+        "name": "com.google.activity.segment"
+      }, 
+      "dataQualityStandard": [], 
+      "application": {
+        "packageName": "com.google.android.gms"
+      }, 
+      "device": {
+        "model": "R1 HD", 
+        "version": "", 
+        "type": "phone", 
+        "uid": "3a561968", 
+        "manufacturer": "BLU"
+      }, 
+      "dataStreamId": "derived:com.google.activity.segment:com.google.android.gms:BLU:R1 HD:3a561968:activity_from_steps", 
+      "type": "derived"
+    }, 
+    {
+      "dataStreamName": "from_activity_samples<-derived:com.google.activity.samples:com.google.android.gms:BLU:R1 HD:3a561968:detailed", 
+      "dataType": {
+        "field": [
+          {
+            "name": "activity", 
+            "format": "integer"
+          }
+        ], 
+        "name": "com.google.activity.segment"
+      }, 
+      "dataQualityStandard": [], 
+      "application": {
+        "packageName": "com.google.android.gms"
+      }, 
+      "device": {
+        "model": "R1 HD", 
+        "version": "", 
+        "type": "phone", 
+        "uid": "3a561968", 
+        "manufacturer": "BLU"
+      }, 
+      "dataStreamId": "derived:com.google.activity.segment:com.google.android.gms:BLU:R1 HD:3a561968:from_activity_samples<-derived:com.google.activity.samples:com.google.android.gms:BLU:R1 HD:3a561968:detailed", 
+      "type": "derived"
+    }, 
+    {
+      "dataStreamName": "activity_from_steps", 
+      "dataType": {
+        "field": [
+          {
+            "name": "activity", 
+            "format": "integer"
+          }
+        ], 
+        "name": "com.google.activity.segment"
+      }, 
+      "dataQualityStandard": [], 
+      "application": {
+        "packageName": "com.google.android.gms"
+      }, 
+      "device": {
+        "model": "Q Explorist HR", 
+        "version": "", 
+        "type": "watch", 
+        "uid": "406b5320", 
+        "manufacturer": "Compal"
+      }, 
+      "dataStreamId": "derived:com.google.activity.segment:com.google.android.gms:Compal:Q Explorist HR:406b5320:activity_from_steps", 
+      "type": "derived"
+    }, 
+    {
+      "dataStreamName": "activity_from_steps", 
+      "dataType": {
+        "field": [
+          {
+            "name": "activity", 
+            "format": "integer"
+          }
+        ], 
+        "name": "com.google.activity.segment"
+      }, 
+      "dataQualityStandard": [], 
+      "application": {
+        "packageName": "com.google.android.gms"
+      }, 
+      "device": {
+        "model": "Redmi Note 8 Pro", 
+        "version": "", 
+        "type": "phone", 
+        "uid": "c1b4b9e3", 
+        "manufacturer": "Xiaomi"
+      }, 
+      "dataStreamId": "derived:com.google.activity.segment:com.google.android.gms:Xiaomi:Redmi Note 8 Pro:c1b4b9e3:activity_from_steps", 
+      "type": "derived"
+    }, 
+    {
+      "dataStreamName": "from_activity_samples<-derived:com.google.activity.samples:com.google.android.gms:Xiaomi:Redmi Note 8 Pro:c1b4b9e3:detailed", 
+      "dataType": {
+        "field": [
+          {
+            "name": "activity", 
+            "format": "integer"
+          }
+        ], 
+        "name": "com.google.activity.segment"
+      }, 
+      "dataQualityStandard": [], 
+      "application": {
+        "packageName": "com.google.android.gms"
+      }, 
+      "device": {
+        "model": "Redmi Note 8 Pro", 
+        "version": "", 
+        "type": "phone", 
+        "uid": "c1b4b9e3", 
+        "manufacturer": "Xiaomi"
+      }, 
+      "dataStreamId": "derived:com.google.activity.segment:com.google.android.gms:Xiaomi:Redmi Note 8 Pro:c1b4b9e3:from_activity_samples<-derived:com.google.activity.samples:com.google.android.gms:Xiaomi:Redmi Note 8 Pro:c1b4b9e3:detailed", 
+      "type": "derived"
+    }, 
+    {
+      "dataQualityStandard": [], 
+      "dataType": {
+        "field": [
+          {
+            "name": "activity", 
+            "format": "integer"
+          }
+        ], 
+        "name": "com.google.activity.segment"
+      }, 
+      "dataStreamName": "from_sample<-derived:com.google.activity.sample:com.google.android.gms:samsung:GT-I9505G:dcb90c:detailed", 
+      "application": {
+        "packageName": "com.google.android.gms"
+      }, 
+      "dataStreamId": "derived:com.google.activity.segment:com.google.android.gms:from_sample<-derived:com.google.activity.sample:com.google.android.gms:samsung:GT-I9505G:dcb90c:detailed", 
+      "type": "derived"
+    }, 
+    {
+      "dataQualityStandard": [], 
+      "dataType": {
+        "field": [
+          {
+            "name": "activity", 
+            "format": "integer"
+          }
+        ], 
+        "name": "com.google.activity.segment"
+      }, 
+      "dataStreamName": "merge_activity_segments", 
+      "application": {
+        "packageName": "com.google.android.gms", 
+        "version": ""
+      }, 
+      "dataStreamId": "derived:com.google.activity.segment:com.google.android.gms:merge_activity_segments", 
+      "type": "derived"
+    }, 
+    {
+      "dataQualityStandard": [], 
+      "dataType": {
+        "field": [
+          {
+            "name": "activity", 
+            "format": "integer"
+          }
+        ], 
+        "name": "com.google.activity.segment"
+      }, 
+      "dataStreamName": "merge_activity_segments_local", 
+      "application": {
+        "packageName": "com.google.android.gms"
+      }, 
+      "dataStreamId": "derived:com.google.activity.segment:com.google.android.gms:merge_activity_segments_local", 
+      "type": "derived"
+    }, 
+    {
+      "dataQualityStandard": [], 
+      "dataType": {
+        "field": [
+          {
+            "name": "activity", 
+            "format": "integer"
+          }
+        ], 
+        "name": "com.google.activity.segment"
+      }, 
+      "dataStreamName": "overlay_user_input_local", 
+      "application": {
+        "packageName": "com.google.android.gms", 
+        "version": ""
+      }, 
+      "dataStreamId": "derived:com.google.activity.segment:com.google.android.gms:overlay_user_input_local", 
+      "type": "derived"
+    }, 
+    {
+      "dataStreamName": "activity_from_steps", 
+      "dataType": {
+        "field": [
+          {
+            "name": "activity", 
+            "format": "integer"
+          }
+        ], 
+        "name": "com.google.activity.segment"
+      }, 
+      "dataQualityStandard": [], 
+      "application": {
+        "packageName": "com.google.android.gms"
+      }, 
+      "device": {
+        "model": "GT-I9505G", 
+        "version": "", 
+        "type": "phone", 
+        "uid": "2dcefb02", 
+        "manufacturer": "samsung"
+      }, 
+      "dataStreamId": "derived:com.google.activity.segment:com.google.android.gms:samsung:GT-I9505G:2dcefb02:activity_from_steps", 
+      "type": "derived"
+    }, 
+    {
+      "dataStreamName": "from_activity_samples<-derived:com.google.activity.samples:com.google.android.gms:samsung:GT-I9505G:2dcefb02:detailed", 
+      "dataType": {
+        "field": [
+          {
+            "name": "activity", 
+            "format": "integer"
+          }
+        ], 
+        "name": "com.google.activity.segment"
+      }, 
+      "dataQualityStandard": [], 
+      "application": {
+        "packageName": "com.google.android.gms"
+      }, 
+      "device": {
+        "model": "GT-I9505G", 
+        "version": "", 
+        "type": "phone", 
+        "uid": "2dcefb02", 
+        "manufacturer": "samsung"
+      }, 
+      "dataStreamId": "derived:com.google.activity.segment:com.google.android.gms:samsung:GT-I9505G:2dcefb02:from_activity_samples<-derived:com.google.activity.samples:com.google.android.gms:samsung:GT-I9505G:2dcefb02:detailed", 
+      "type": "derived"
+    }, 
+    {
+      "dataStreamName": "activity_from_steps", 
+      "dataType": {
+        "field": [
+          {
+            "name": "activity", 
+            "format": "integer"
+          }
+        ], 
+        "name": "com.google.activity.segment"
+      }, 
+      "dataQualityStandard": [], 
+      "application": {
+        "packageName": "com.google.android.gms"
+      }, 
+      "device": {
+        "model": "GT-I9505G", 
+        "version": "", 
+        "type": "unknown", 
+        "uid": "3438a7d9", 
+        "manufacturer": "samsung"
+      }, 
+      "dataStreamId": "derived:com.google.activity.segment:com.google.android.gms:samsung:GT-I9505G:3438a7d9:activity_from_steps", 
+      "type": "derived"
+    }, 
+    {
+      "dataStreamName": "from_sample<-derived:com.google.activity.sample:com.google.android.gms:samsung:GT-I9505G:3438a7d9:detailed", 
+      "dataType": {
+        "field": [
+          {
+            "name": "activity", 
+            "format": "integer"
+          }
+        ], 
+        "name": "com.google.activity.segment"
+      }, 
+      "dataQualityStandard": [], 
+      "application": {
+        "packageName": "com.google.android.gms"
+      }, 
+      "device": {
+        "model": "GT-I9505G", 
+        "version": "", 
+        "type": "unknown", 
+        "uid": "3438a7d9", 
+        "manufacturer": "samsung"
+      }, 
+      "dataStreamId": "derived:com.google.activity.segment:com.google.android.gms:samsung:GT-I9505G:3438a7d9:from_sample<-derived:com.google.activity.sample:com.google.android.gms:samsung:GT-I9505G:3438a7d9:detailed", 
+      "type": "derived"
+    }, 
+    {
+      "dataStreamName": "activity_from_steps", 
+      "dataType": {
+        "field": [
+          {
+            "name": "activity", 
+            "format": "integer"
+          }
+        ], 
+        "name": "com.google.activity.segment"
+      }, 
+      "dataQualityStandard": [], 
+      "application": {
+        "packageName": "com.google.android.gms"
+      }, 
+      "device": {
+        "model": "GT-I9505G", 
+        "version": "", 
+        "type": "phone", 
+        "uid": "46cecfa2", 
+        "manufacturer": "samsung"
+      }, 
+      "dataStreamId": "derived:com.google.activity.segment:com.google.android.gms:samsung:GT-I9505G:46cecfa2:activity_from_steps", 
+      "type": "derived"
+    }, 
+    {
+      "dataStreamName": "from_activity_samples<-derived:com.google.activity.samples:com.google.android.gms:samsung:GT-I9505G:46cecfa2:detailed", 
+      "dataType": {
+        "field": [
+          {
+            "name": "activity", 
+            "format": "integer"
+          }
+        ], 
+        "name": "com.google.activity.segment"
+      }, 
+      "dataQualityStandard": [], 
+      "application": {
+        "packageName": "com.google.android.gms"
+      }, 
+      "device": {
+        "model": "GT-I9505G", 
+        "version": "", 
+        "type": "phone", 
+        "uid": "46cecfa2", 
+        "manufacturer": "samsung"
+      }, 
+      "dataStreamId": "derived:com.google.activity.segment:com.google.android.gms:samsung:GT-I9505G:46cecfa2:from_activity_samples<-derived:com.google.activity.samples:com.google.android.gms:samsung:GT-I9505G:46cecfa2:detailed", 
+      "type": "derived"
+    }, 
+    {
+      "dataStreamName": "from_sample<-derived:com.google.activity.sample:com.google.android.gms:samsung:GT-I9505G:46cecfa2:detailed", 
+      "dataType": {
+        "field": [
+          {
+            "name": "activity", 
+            "format": "integer"
+          }
+        ], 
+        "name": "com.google.activity.segment"
+      }, 
+      "dataQualityStandard": [], 
+      "application": {
+        "packageName": "com.google.android.gms"
+      }, 
+      "device": {
+        "model": "GT-I9505G", 
+        "version": "", 
+        "type": "phone", 
+        "uid": "46cecfa2", 
+        "manufacturer": "samsung"
+      }, 
+      "dataStreamId": "derived:com.google.activity.segment:com.google.android.gms:samsung:GT-I9505G:46cecfa2:from_sample<-derived:com.google.activity.sample:com.google.android.gms:samsung:GT-I9505G:46cecfa2:detailed", 
+      "type": "derived"
+    }, 
+    {
+      "dataStreamName": "activity_from_steps", 
+      "dataType": {
+        "field": [
+          {
+            "name": "activity", 
+            "format": "integer"
+          }
+        ], 
+        "name": "com.google.activity.segment"
+      }, 
+      "dataQualityStandard": [], 
+      "application": {
+        "packageName": "com.google.android.gms"
+      }, 
+      "device": {
+        "model": "GT-I9505G", 
+        "version": "", 
+        "type": "phone", 
+        "uid": "674dd138", 
+        "manufacturer": "samsung"
+      }, 
+      "dataStreamId": "derived:com.google.activity.segment:com.google.android.gms:samsung:GT-I9505G:674dd138:activity_from_steps", 
+      "type": "derived"
+    }, 
+    {
+      "dataStreamName": "from_sample<-derived:com.google.activity.sample:com.google.android.gms:samsung:GT-I9505G:674dd138:detailed", 
+      "dataType": {
+        "field": [
+          {
+            "name": "activity", 
+            "format": "integer"
+          }
+        ], 
+        "name": "com.google.activity.segment"
+      }, 
+      "dataQualityStandard": [], 
+      "application": {
+        "packageName": "com.google.android.gms"
+      }, 
+      "device": {
+        "model": "GT-I9505G", 
+        "version": "", 
+        "type": "phone", 
+        "uid": "674dd138", 
+        "manufacturer": "samsung"
+      }, 
+      "dataStreamId": "derived:com.google.activity.segment:com.google.android.gms:samsung:GT-I9505G:674dd138:from_sample<-derived:com.google.activity.sample:com.google.android.gms:samsung:GT-I9505G:674dd138:detailed", 
+      "type": "derived"
+    }, 
+    {
+      "dataStreamName": "activity_from_steps", 
+      "dataType": {
+        "field": [
+          {
+            "name": "activity", 
+            "format": "integer"
+          }
+        ], 
+        "name": "com.google.activity.segment"
+      }, 
+      "dataQualityStandard": [], 
+      "application": {
+        "packageName": "com.google.android.gms"
+      }, 
+      "device": {
+        "model": "GT-I9505G", 
+        "version": "", 
+        "type": "phone", 
+        "uid": "dcb90c", 
+        "manufacturer": "samsung"
+      }, 
+      "dataStreamId": "derived:com.google.activity.segment:com.google.android.gms:samsung:GT-I9505G:dcb90c:activity_from_steps", 
+      "type": "derived"
+    }, 
+    {
+      "dataStreamName": "from_sample<-derived:com.google.activity.sample:com.google.android.gms:samsung:GT-I9505G:dcb90c:detailed", 
+      "dataType": {
+        "field": [
+          {
+            "name": "activity", 
+            "format": "integer"
+          }
+        ], 
+        "name": "com.google.activity.segment"
+      }, 
+      "dataQualityStandard": [], 
+      "application": {
+        "packageName": "com.google.android.gms"
+      }, 
+      "device": {
+        "model": "GT-I9505G", 
+        "version": "", 
+        "type": "phone", 
+        "uid": "dcb90c", 
+        "manufacturer": "samsung"
+      }, 
+      "dataStreamId": "derived:com.google.activity.segment:com.google.android.gms:samsung:GT-I9505G:dcb90c:from_sample<-derived:com.google.activity.sample:com.google.android.gms:samsung:GT-I9505G:dcb90c:detailed", 
+      "type": "derived"
+    }, 
+    {
+      "dataStreamName": "activity_from_steps", 
+      "dataType": {
+        "field": [
+          {
+            "name": "activity", 
+            "format": "integer"
+          }
+        ], 
+        "name": "com.google.activity.segment"
+      }, 
+      "dataQualityStandard": [], 
+      "application": {
+        "packageName": "com.google.android.gms"
+      }, 
+      "device": {
+        "model": "SAMSUNG-SM-G930A", 
+        "version": "", 
+        "type": "phone", 
+        "uid": "4b92c36f", 
+        "manufacturer": "samsung"
+      }, 
+      "dataStreamId": "derived:com.google.activity.segment:com.google.android.gms:samsung:SAMSUNG-SM-G930A:4b92c36f:activity_from_steps", 
+      "type": "derived"
+    }, 
+    {
+      "dataStreamName": "from_activity_samples<-derived:com.google.activity.samples:com.google.android.gms:samsung:SAMSUNG-SM-G930A:4b92c36f:detailed", 
+      "dataType": {
+        "field": [
+          {
+            "name": "activity", 
+            "format": "integer"
+          }
+        ], 
+        "name": "com.google.activity.segment"
+      }, 
+      "dataQualityStandard": [], 
+      "application": {
+        "packageName": "com.google.android.gms", 
+        "version": "1"
+      }, 
+      "device": {
+        "model": "SAMSUNG-SM-G930A", 
+        "version": "", 
+        "type": "phone", 
+        "uid": "4b92c36f", 
+        "manufacturer": "samsung"
+      }, 
+      "dataStreamId": "derived:com.google.activity.segment:com.google.android.gms:samsung:SAMSUNG-SM-G930A:4b92c36f:from_activity_samples<-derived:com.google.activity.samples:com.google.android.gms:samsung:SAMSUNG-SM-G930A:4b92c36f:detailed", 
+      "type": "derived"
+    }, 
+    {
+      "dataStreamName": "activity_from_steps", 
+      "dataType": {
+        "field": [
+          {
+            "name": "activity", 
+            "format": "integer"
+          }
+        ], 
+        "name": "com.google.activity.segment"
+      }, 
+      "dataQualityStandard": [], 
+      "application": {
+        "packageName": "com.google.android.gms"
+      }, 
+      "device": {
+        "model": "SAMSUNG-SM-G930A", 
+        "version": "", 
+        "type": "phone", 
+        "uid": "74ff53d7", 
+        "manufacturer": "samsung"
+      }, 
+      "dataStreamId": "derived:com.google.activity.segment:com.google.android.gms:samsung:SAMSUNG-SM-G930A:74ff53d7:activity_from_steps", 
+      "type": "derived"
+    }, 
+    {
+      "dataStreamName": "from_activity_samples<-derived:com.google.activity.samples:com.google.android.gms:samsung:SAMSUNG-SM-G930A:74ff53d7:detailed", 
+      "dataType": {
+        "field": [
+          {
+            "name": "activity", 
+            "format": "integer"
+          }
+        ], 
+        "name": "com.google.activity.segment"
+      }, 
+      "dataQualityStandard": [], 
+      "application": {
+        "packageName": "com.google.android.gms"
+      }, 
+      "device": {
+        "model": "SAMSUNG-SM-G930A", 
+        "version": "", 
+        "type": "phone", 
+        "uid": "74ff53d7", 
+        "manufacturer": "samsung"
+      }, 
+      "dataStreamId": "derived:com.google.activity.segment:com.google.android.gms:samsung:SAMSUNG-SM-G930A:74ff53d7:from_activity_samples<-derived:com.google.activity.samples:com.google.android.gms:samsung:SAMSUNG-SM-G930A:74ff53d7:detailed", 
+      "type": "derived"
+    }, 
+    {
+      "dataStreamName": "activity_from_steps", 
+      "dataType": {
+        "field": [
+          {
+            "name": "activity", 
+            "format": "integer"
+          }
+        ], 
+        "name": "com.google.activity.segment"
+      }, 
+      "dataQualityStandard": [], 
+      "application": {
+        "packageName": "com.google.android.gms"
+      }, 
+      "device": {
+        "model": "SAMSUNG-SM-G930A", 
+        "version": "", 
+        "type": "phone", 
+        "uid": "643394b0", 
+        "manufacturer": "samsung"
+      }, 
+      "dataStreamId": "derived:com.google.activity.segment:com.google.android.gms:samsung:SAMSUNG-SM-G930A:643394b0:activity_from_steps", 
+      "type": "derived"
+    }, 
+    {
+      "dataStreamName": "from_activity_samples<-derived:com.google.activity.samples:com.google.android.gms:samsung:SAMSUNG-SM-G930A:643394b0:detailed", 
+      "dataType": {
+        "field": [
+          {
+            "name": "activity", 
+            "format": "integer"
+          }
+        ], 
+        "name": "com.google.activity.segment"
+      }, 
+      "dataQualityStandard": [], 
+      "application": {
+        "packageName": "com.google.android.gms"
+      }, 
+      "device": {
+        "model": "SAMSUNG-SM-G930A", 
+        "version": "", 
+        "type": "phone", 
+        "uid": "643394b0", 
+        "manufacturer": "samsung"
+      }, 
+      "dataStreamId": "derived:com.google.activity.segment:com.google.android.gms:samsung:SAMSUNG-SM-G930A:643394b0:from_activity_samples<-derived:com.google.activity.samples:com.google.android.gms:samsung:SAMSUNG-SM-G930A:643394b0:detailed", 
+      "type": "derived"
+    }, 
+    {
+      "dataStreamName": "activity_from_steps", 
+      "dataType": {
+        "field": [
+          {
+            "name": "activity", 
+            "format": "integer"
+          }
+        ], 
+        "name": "com.google.activity.segment"
+      }, 
+      "dataQualityStandard": [], 
+      "application": {
+        "packageName": "com.google.android.gms"
+      }, 
+      "device": {
+        "model": "SAMSUNG-SM-G930A", 
+        "version": "", 
+        "type": "phone", 
+        "uid": "21f23d07", 
+        "manufacturer": "samsung"
+      }, 
+      "dataStreamId": "derived:com.google.activity.segment:com.google.android.gms:samsung:SAMSUNG-SM-G930A:21f23d07:activity_from_steps", 
+      "type": "derived"
+    }, 
+    {
+      "dataStreamName": "from_activity_samples<-derived:com.google.activity.samples:com.google.android.gms:samsung:SAMSUNG-SM-G930A:21f23d07:detailed", 
+      "dataType": {
+        "field": [
+          {
+            "name": "activity", 
+            "format": "integer"
+          }
+        ], 
+        "name": "com.google.activity.segment"
+      }, 
+      "dataQualityStandard": [], 
+      "application": {
+        "packageName": "com.google.android.gms"
+      }, 
+      "device": {
+        "model": "SAMSUNG-SM-G930A", 
+        "version": "", 
+        "type": "phone", 
+        "uid": "21f23d07", 
+        "manufacturer": "samsung"
+      }, 
+      "dataStreamId": "derived:com.google.activity.segment:com.google.android.gms:samsung:SAMSUNG-SM-G930A:21f23d07:from_activity_samples<-derived:com.google.activity.samples:com.google.android.gms:samsung:SAMSUNG-SM-G930A:21f23d07:detailed", 
+      "type": "derived"
+    }, 
+    {
+      "dataQualityStandard": [], 
+      "dataType": {
+        "field": [
+          {
+            "name": "activity", 
+            "format": "integer"
+          }
+        ], 
+        "name": "com.google.activity.segment"
+      }, 
+      "dataStreamName": "session_activity_segment", 
+      "application": {
+        "packageName": "com.google.android.gms"
+      }, 
+      "dataStreamId": "derived:com.google.activity.segment:com.google.android.gms:session_activity_segment", 
+      "type": "derived"
+    }, 
+    {
+      "dataQualityStandard": [], 
+      "dataType": {
+        "field": [
+          {
+            "name": "activity", 
+            "format": "integer"
+          }
+        ], 
+        "name": "com.google.activity.segment"
+      }, 
+      "dataStreamName": "session_activity_segment", 
+      "application": {
+        "packageName": "com.google.android.maps.mytracks"
+      }, 
+      "dataStreamId": "derived:com.google.activity.segment:com.google.android.maps.mytracks:session_activity_segment", 
+      "type": "derived"
+    }, 
+    {
+      "dataQualityStandard": [], 
+      "dataType": {
+        "field": [
+          {
+            "name": "activity", 
+            "format": "integer"
+          }
+        ], 
+        "name": "com.google.activity.segment"
+      }, 
+      "dataStreamName": "session_activity_segment", 
+      "application": {
+        "packageName": "com.nike.plusgps"
+      }, 
+      "dataStreamId": "derived:com.google.activity.segment:com.nike.plusgps:session_activity_segment", 
+      "type": "derived"
+    }, 
+    {
+      "dataQualityStandard": [], 
+      "dataType": {
+        "field": [
+          {
+            "name": "activity", 
+            "format": "integer"
+          }
+        ], 
+        "name": "com.google.activity.segment"
+      }, 
+      "dataStreamName": "session_activity_segment", 
+      "application": {
+        "packageName": "com.strava"
+      }, 
+      "dataStreamId": "derived:com.google.activity.segment:com.strava:session_activity_segment", 
+      "type": "derived"
+    }, 
+    {
+      "dataQualityStandard": [], 
+      "dataType": {
+        "field": [
+          {
+            "name": "activity", 
+            "format": "integer"
+          }
+        ], 
+        "name": "com.google.activity.segment"
+      }, 
+      "dataStreamName": "session_activity_segment", 
+      "application": {
+        "packageName": "com.urbandroid.sleep"
+      }, 
+      "dataStreamId": "derived:com.google.activity.segment:com.urbandroid.sleep:session_activity_segment", 
+      "type": "derived"
+    }, 
+    {
+      "dataQualityStandard": [], 
+      "dataType": {
+        "field": [
+          {
+            "name": "blood_pressure_systolic", 
+            "format": "floatPoint"
+          }, 
+          {
+            "name": "blood_pressure_diastolic", 
+            "format": "floatPoint"
+          }, 
+          {
+            "optional": true, 
+            "name": "body_position", 
+            "format": "integer"
+          }, 
+          {
+            "optional": true, 
+            "name": "blood_pressure_measurement_location", 
+            "format": "integer"
+          }
+        ], 
+        "name": "com.google.blood_pressure"
+      }, 
+      "dataStreamName": "merged", 
+      "application": {
+        "packageName": "com.google.android.gms"
+      }, 
+      "dataStreamId": "derived:com.google.blood_pressure:com.google.android.gms:merged", 
+      "type": "derived"
+    }, 
+    {
+      "dataQualityStandard": [], 
+      "dataType": {
+        "field": [
+          {
+            "name": "calories", 
+            "format": "floatPoint"
+          }
+        ], 
+        "name": "com.google.calories.bmr"
+      }, 
+      "dataStreamName": "merged", 
+      "application": {
+        "packageName": "com.google.android.gms"
+      }, 
+      "dataStreamId": "derived:com.google.calories.bmr:com.google.android.gms:merged", 
+      "type": "derived"
+    }, 
+    {
+      "dataStreamName": "top_level", 
+      "dataType": {
+        "field": [
+          {
+            "name": "calories", 
+            "format": "floatPoint"
+          }
+        ], 
+        "name": "com.google.calories.expended"
+      }, 
+      "dataQualityStandard": [], 
+      "application": {
+        "packageName": "com.google.android.fit"
+      }, 
+      "device": {
+        "model": "Q Explorist HR", 
+        "version": "", 
+        "type": "watch", 
+        "uid": "406b5320", 
+        "manufacturer": "Compal"
+      }, 
+      "dataStreamId": "derived:com.google.calories.expended:com.google.android.fit:Compal:Q Explorist HR:406b5320:top_level", 
+      "type": "derived"
+    }, 
+    {
+      "dataStreamName": "top_level", 
+      "dataType": {
+        "field": [
+          {
+            "name": "calories", 
+            "format": "floatPoint"
+          }
+        ], 
+        "name": "com.google.calories.expended"
+      }, 
+      "dataQualityStandard": [], 
+      "application": {
+        "packageName": "com.google.android.fit"
+      }, 
+      "device": {
+        "model": "Redmi Note 8 Pro", 
+        "version": "", 
+        "type": "phone", 
+        "uid": "c1b4b9e3", 
+        "manufacturer": "Xiaomi"
+      }, 
+      "dataStreamId": "derived:com.google.calories.expended:com.google.android.fit:Xiaomi:Redmi Note 8 Pro:c1b4b9e3:top_level", 
+      "type": "derived"
+    }, 
+    {
+      "dataQualityStandard": [], 
+      "dataType": {
+        "field": [
+          {
+            "name": "calories", 
+            "format": "floatPoint"
+          }
+        ], 
+        "name": "com.google.calories.expended"
+      }, 
+      "dataStreamName": "default_calories_expended", 
+      "application": {
+        "packageName": "com.google.android.gms"
+      }, 
+      "dataStreamId": "derived:com.google.calories.expended:com.google.android.gms:default_calories_expended", 
+      "type": "derived"
+    }, 
+    {
+      "dataQualityStandard": [], 
+      "dataType": {
+        "field": [
+          {
+            "name": "calories", 
+            "format": "floatPoint"
+          }
+        ], 
+        "name": "com.google.calories.expended"
+      }, 
+      "dataStreamName": "merge_calories_expended", 
+      "application": {
+        "packageName": "com.google.android.gms", 
+        "version": ""
+      }, 
+      "dataStreamId": "derived:com.google.calories.expended:com.google.android.gms:merge_calories_expended", 
+      "type": "derived"
+    }, 
+    {
+      "name": "CALORIES_EXPENDED", 
+      "dataStreamName": "", 
+      "dataType": {
+        "field": [
+          {
+            "name": "calories", 
+            "format": "floatPoint"
+          }
+        ], 
+        "name": "com.google.calories.expended"
+      }, 
+      "dataQualityStandard": [], 
+      "application": {
+        "packageName": "com.nike.plusgps"
+      }, 
+      "dataStreamId": "derived:com.google.calories.expended:com.nike.plusgps:", 
+      "type": "derived"
+    }, 
+    {
+      "name": "strava-calories", 
+      "dataStreamName": "", 
+      "dataType": {
+        "field": [
+          {
+            "name": "calories", 
+            "format": "floatPoint"
+          }
+        ], 
+        "name": "com.google.calories.expended"
+      }, 
+      "dataQualityStandard": [], 
+      "application": {
+        "packageName": "com.strava"
+      }, 
+      "dataStreamId": "derived:com.google.calories.expended:com.strava:", 
+      "type": "derived"
+    }, 
+    {
+      "dataQualityStandard": [], 
+      "dataType": {
+        "field": [
+          {
+            "name": "distance", 
+            "format": "floatPoint"
+          }
+        ], 
+        "name": "com.google.distance.delta"
+      }, 
+      "dataStreamName": "from_third_party_location<-raw:com.google.location.sample:com.google.android.apps.fitness:user_input", 
+      "application": {
+        "packageName": "com.google.android.apps.fitness"
+      }, 
+      "dataStreamId": "derived:com.google.distance.delta:com.google.android.apps.fitness:from_third_party_location<-raw:com.google.location.sample:com.google.android.apps.fitness:user_input", 
+      "type": "derived"
+    }, 
+    {
+      "dataStreamName": "top_level", 
+      "dataType": {
+        "field": [
+          {
+            "name": "distance", 
+            "format": "floatPoint"
+          }
+        ], 
+        "name": "com.google.distance.delta"
+      }, 
+      "dataQualityStandard": [], 
+      "application": {
+        "packageName": "com.google.android.fit"
+      }, 
+      "device": {
+        "model": "Q Explorist HR", 
+        "version": "", 
+        "type": "watch", 
+        "uid": "406b5320", 
+        "manufacturer": "Compal"
+      }, 
+      "dataStreamId": "derived:com.google.distance.delta:com.google.android.fit:Compal:Q Explorist HR:406b5320:top_level", 
+      "type": "derived"
+    }, 
+    {
+      "dataStreamName": "top_level", 
+      "dataType": {
+        "field": [
+          {
+            "name": "distance", 
+            "format": "floatPoint"
+          }
+        ], 
+        "name": "com.google.distance.delta"
+      }, 
+      "dataQualityStandard": [], 
+      "application": {
+        "packageName": "com.google.android.fit"
+      }, 
+      "device": {
+        "model": "Redmi Note 8 Pro", 
+        "version": "", 
+        "type": "phone", 
+        "uid": "c1b4b9e3", 
+        "manufacturer": "Xiaomi"
+      }, 
+      "dataStreamId": "derived:com.google.distance.delta:com.google.android.fit:Xiaomi:Redmi Note 8 Pro:c1b4b9e3:top_level", 
+      "type": "derived"
+    }, 
+    {
+      "dataStreamName": "from_activity<-raw:com.google.location.sample:com.google.android.gms:BLU:R1 HD:3a561968:live_location", 
+      "dataType": {
+        "field": [
+          {
+            "name": "distance", 
+            "format": "floatPoint"
+          }
+        ], 
+        "name": "com.google.distance.delta"
+      }, 
+      "dataQualityStandard": [], 
+      "application": {
+        "packageName": "com.google.android.gms"
+      }, 
+      "device": {
+        "model": "R1 HD", 
+        "version": "", 
+        "type": "phone", 
+        "uid": "3a561968", 
+        "manufacturer": "BLU"
+      }, 
+      "dataStreamId": "derived:com.google.distance.delta:com.google.android.gms:BLU:R1 HD:3a561968:from_activity<-raw:com.google.location.sample:com.google.android.gms:BLU:R1 HD:3a561968:live_location", 
+      "type": "derived"
+    }, 
+    {
+      "dataStreamName": "from_location<-raw:com.google.location.sample:com.google.android.gms:BLU:R1 HD:3a561968:live_location", 
+      "dataType": {
+        "field": [
+          {
+            "name": "distance", 
+            "format": "floatPoint"
+          }
+        ], 
+        "name": "com.google.distance.delta"
+      }, 
+      "dataQualityStandard": [], 
+      "application": {
+        "packageName": "com.google.android.gms"
+      }, 
+      "device": {
+        "model": "R1 HD", 
+        "version": "", 
+        "type": "phone", 
+        "uid": "3a561968", 
+        "manufacturer": "BLU"
+      }, 
+      "dataStreamId": "derived:com.google.distance.delta:com.google.android.gms:BLU:R1 HD:3a561968:from_location<-raw:com.google.location.sample:com.google.android.gms:BLU:R1 HD:3a561968:live_location", 
+      "type": "derived"
+    }, 
+    {
+      "dataStreamName": "from_activity<-raw:com.google.location.sample:com.google.android.gms:Compal:Q Explorist HR:406b5320:live_location", 
+      "dataType": {
+        "field": [
+          {
+            "name": "distance", 
+            "format": "floatPoint"
+          }
+        ], 
+        "name": "com.google.distance.delta"
+      }, 
+      "dataQualityStandard": [], 
+      "application": {
+        "packageName": "com.google.android.gms"
+      }, 
+      "device": {
+        "model": "Q Explorist HR", 
+        "version": "", 
+        "type": "watch", 
+        "uid": "406b5320", 
+        "manufacturer": "Compal"
+      }, 
+      "dataStreamId": "derived:com.google.distance.delta:com.google.android.gms:Compal:Q Explorist HR:406b5320:from_activity<-raw:com.google.location.sample:com.google.android.gms:Compal:Q Explorist HR:406b5320:live_location", 
+      "type": "derived"
+    }, 
+    {
+      "dataStreamName": "from_location<-raw:com.google.location.sample:com.google.android.gms:Compal:Q Explorist HR:406b5320:live_location", 
+      "dataType": {
+        "field": [
+          {
+            "name": "distance", 
+            "format": "floatPoint"
+          }
+        ], 
+        "name": "com.google.distance.delta"
+      }, 
+      "dataQualityStandard": [], 
+      "application": {
+        "packageName": "com.google.android.gms"
+      }, 
+      "device": {
+        "model": "Q Explorist HR", 
+        "version": "", 
+        "type": "watch", 
+        "uid": "406b5320", 
+        "manufacturer": "Compal"
+      }, 
+      "dataStreamId": "derived:com.google.distance.delta:com.google.android.gms:Compal:Q Explorist HR:406b5320:from_location<-raw:com.google.location.sample:com.google.android.gms:Compal:Q Explorist HR:406b5320:live_location", 
+      "type": "derived"
+    }, 
+    {
+      "dataStreamName": "from_activity<-raw:com.google.location.sample:com.google.android.gms:Xiaomi:Redmi Note 8 Pro:c1b4b9e3:live_location", 
+      "dataType": {
+        "field": [
+          {
+            "name": "distance", 
+            "format": "floatPoint"
+          }
+        ], 
+        "name": "com.google.distance.delta"
+      }, 
+      "dataQualityStandard": [], 
+      "application": {
+        "packageName": "com.google.android.gms"
+      }, 
+      "device": {
+        "model": "Redmi Note 8 Pro", 
+        "version": "", 
+        "type": "phone", 
+        "uid": "c1b4b9e3", 
+        "manufacturer": "Xiaomi"
+      }, 
+      "dataStreamId": "derived:com.google.distance.delta:com.google.android.gms:Xiaomi:Redmi Note 8 Pro:c1b4b9e3:from_activity<-raw:com.google.location.sample:com.google.android.gms:Xiaomi:Redmi Note 8 Pro:c1b4b9e3:live_location", 
+      "type": "derived"
+    }, 
+    {
+      "dataStreamName": "from_location<-raw:com.google.location.sample:com.google.android.gms:Xiaomi:Redmi Note 8 Pro:c1b4b9e3:live_location", 
+      "dataType": {
+        "field": [
+          {
+            "name": "distance", 
+            "format": "floatPoint"
+          }
+        ], 
+        "name": "com.google.distance.delta"
+      }, 
+      "dataQualityStandard": [], 
+      "application": {
+        "packageName": "com.google.android.gms"
+      }, 
+      "device": {
+        "model": "Redmi Note 8 Pro", 
+        "version": "", 
+        "type": "phone", 
+        "uid": "c1b4b9e3", 
+        "manufacturer": "Xiaomi"
+      }, 
+      "dataStreamId": "derived:com.google.distance.delta:com.google.android.gms:Xiaomi:Redmi Note 8 Pro:c1b4b9e3:from_location<-raw:com.google.location.sample:com.google.android.gms:Xiaomi:Redmi Note 8 Pro:c1b4b9e3:live_location", 
+      "type": "derived"
+    }, 
+    {
+      "dataQualityStandard": [], 
+      "dataType": {
+        "field": [
+          {
+            "name": "distance", 
+            "format": "floatPoint"
+          }
+        ], 
+        "name": "com.google.distance.delta"
+      }, 
+      "dataStreamName": "from_high_accuracy_location<-derived:com.google.location.sample:com.google.android.gms:merge_high_fidelity", 
+      "application": {
+        "packageName": "com.google.android.gms"
+      }, 
+      "dataStreamId": "derived:com.google.distance.delta:com.google.android.gms:from_high_accuracy_location<-derived:com.google.location.sample:com.google.android.gms:merge_high_fidelity", 
+      "type": "derived"
+    }, 
+    {
+      "dataQualityStandard": [], 
+      "dataType": {
+        "field": [
+          {
+            "name": "distance", 
+            "format": "floatPoint"
+          }
+        ], 
+        "name": "com.google.distance.delta"
+      }, 
+      "dataStreamName": "from_third_party_location<-derived:com.google.location.sample:com.nike.plusgps:", 
+      "application": {
+        "packageName": "com.google.android.gms"
+      }, 
+      "dataStreamId": "derived:com.google.distance.delta:com.google.android.gms:from_third_party_location<-derived:com.google.location.sample:com.nike.plusgps:", 
+      "type": "derived"
+    }, 
+    {
+      "dataQualityStandard": [], 
+      "dataType": {
+        "field": [
+          {
+            "name": "distance", 
+            "format": "floatPoint"
+          }
+        ], 
+        "name": "com.google.distance.delta"
+      }, 
+      "dataStreamName": "from_third_party_location<-raw:com.google.location.sample:com.google.android.maps.mytracks:", 
+      "application": {
+        "packageName": "com.google.android.gms"
+      }, 
+      "dataStreamId": "derived:com.google.distance.delta:com.google.android.gms:from_third_party_location<-raw:com.google.location.sample:com.google.android.maps.mytracks:", 
+      "type": "derived"
+    }, 
+    {
+      "dataQualityStandard": [], 
+      "dataType": {
+        "field": [
+          {
+            "name": "distance", 
+            "format": "floatPoint"
+          }
+        ], 
+        "name": "com.google.distance.delta"
+      }, 
+      "dataStreamName": "merge_distance_delta", 
+      "application": {
+        "packageName": "com.google.android.gms", 
+        "version": ""
+      }, 
+      "dataStreamId": "derived:com.google.distance.delta:com.google.android.gms:merge_distance_delta", 
+      "type": "derived"
+    }, 
+    {
+      "dataStreamName": "from_activity<-raw:com.google.location.sample:com.google.android.gms:samsung:GT-I9505G:2dcefb02:live_location", 
+      "dataType": {
+        "field": [
+          {
+            "name": "distance", 
+            "format": "floatPoint"
+          }
+        ], 
+        "name": "com.google.distance.delta"
+      }, 
+      "dataQualityStandard": [], 
+      "application": {
+        "packageName": "com.google.android.gms"
+      }, 
+      "device": {
+        "model": "GT-I9505G", 
+        "version": "", 
+        "type": "phone", 
+        "uid": "2dcefb02", 
+        "manufacturer": "samsung"
+      }, 
+      "dataStreamId": "derived:com.google.distance.delta:com.google.android.gms:samsung:GT-I9505G:2dcefb02:from_activity<-raw:com.google.location.sample:com.google.android.gms:samsung:GT-I9505G:2dcefb02:live_location", 
+      "type": "derived"
+    }, 
+    {
+      "dataStreamName": "from_location<-raw:com.google.location.sample:com.google.android.gms:samsung:GT-I9505G:2dcefb02:live_location", 
+      "dataType": {
+        "field": [
+          {
+            "name": "distance", 
+            "format": "floatPoint"
+          }
+        ], 
+        "name": "com.google.distance.delta"
+      }, 
+      "dataQualityStandard": [], 
+      "application": {
+        "packageName": "com.google.android.gms"
+      }, 
+      "device": {
+        "model": "GT-I9505G", 
+        "version": "", 
+        "type": "phone", 
+        "uid": "2dcefb02", 
+        "manufacturer": "samsung"
+      }, 
+      "dataStreamId": "derived:com.google.distance.delta:com.google.android.gms:samsung:GT-I9505G:2dcefb02:from_location<-raw:com.google.location.sample:com.google.android.gms:samsung:GT-I9505G:2dcefb02:live_location", 
+      "type": "derived"
+    }, 
+    {
+      "dataStreamName": "", 
+      "dataType": {
+        "field": [
+          {
+            "name": "distance", 
+            "format": "floatPoint"
+          }
+        ], 
+        "name": "com.google.distance.delta"
+      }, 
+      "dataQualityStandard": [], 
+      "application": {
+        "packageName": "com.google.android.gms"
+      }, 
+      "device": {
+        "model": "GT-I9505G", 
+        "version": "", 
+        "type": "unknown", 
+        "uid": "3438a7d9", 
+        "manufacturer": "samsung"
+      }, 
+      "dataStreamId": "derived:com.google.distance.delta:com.google.android.gms:samsung:GT-I9505G:3438a7d9:", 
+      "type": "derived"
+    }, 
+    {
+      "dataStreamName": "from_activity<-derived:com.google.activity.sample:com.google.android.gms:samsung:GT-I9505G:3438a7d9:detailed", 
+      "dataType": {
+        "field": [
+          {
+            "name": "distance", 
+            "format": "floatPoint"
+          }
+        ], 
+        "name": "com.google.distance.delta"
+      }, 
+      "dataQualityStandard": [], 
+      "application": {
+        "packageName": "com.google.android.gms"
+      }, 
+      "device": {
+        "model": "GT-I9505G", 
+        "version": "", 
+        "type": "unknown", 
+        "uid": "3438a7d9", 
+        "manufacturer": "samsung"
+      }, 
+      "dataStreamId": "derived:com.google.distance.delta:com.google.android.gms:samsung:GT-I9505G:3438a7d9:from_activity<-derived:com.google.activity.sample:com.google.android.gms:samsung:GT-I9505G:3438a7d9:detailed", 
+      "type": "derived"
+    }, 
+    {
+      "dataStreamName": "from_activity<-raw:com.google.location.sample:com.google.android.gms:samsung:GT-I9505G:3438a7d9:", 
+      "dataType": {
+        "field": [
+          {
+            "name": "distance", 
+            "format": "floatPoint"
+          }
+        ], 
+        "name": "com.google.distance.delta"
+      }, 
+      "dataQualityStandard": [], 
+      "application": {
+        "packageName": "com.google.android.gms"
+      }, 
+      "device": {
+        "model": "GT-I9505G", 
+        "version": "", 
+        "type": "unknown", 
+        "uid": "3438a7d9", 
+        "manufacturer": "samsung"
+      }, 
+      "dataStreamId": "derived:com.google.distance.delta:com.google.android.gms:samsung:GT-I9505G:3438a7d9:from_activity<-raw:com.google.location.sample:com.google.android.gms:samsung:GT-I9505G:3438a7d9:", 
+      "type": "derived"
+    }, 
+    {
+      "dataStreamName": "from_location<-raw:com.google.location.sample:com.google.android.gms:samsung:GT-I9505G:3438a7d9:", 
+      "dataType": {
+        "field": [
+          {
+            "name": "distance", 
+            "format": "floatPoint"
+          }
+        ], 
+        "name": "com.google.distance.delta"
+      }, 
+      "dataQualityStandard": [], 
+      "application": {
+        "packageName": "com.google.android.gms"
+      }, 
+      "device": {
+        "model": "GT-I9505G", 
+        "version": "", 
+        "type": "unknown", 
+        "uid": "3438a7d9", 
+        "manufacturer": "samsung"
+      }, 
+      "dataStreamId": "derived:com.google.distance.delta:com.google.android.gms:samsung:GT-I9505G:3438a7d9:from_location<-raw:com.google.location.sample:com.google.android.gms:samsung:GT-I9505G:3438a7d9:", 
+      "type": "derived"
+    }, 
+    {
+      "dataStreamName": "from_activity<-raw:com.google.location.sample:com.google.android.gms:samsung:GT-I9505G:46cecfa2:", 
+      "dataType": {
+        "field": [
+          {
+            "name": "distance", 
+            "format": "floatPoint"
+          }
+        ], 
+        "name": "com.google.distance.delta"
+      }, 
+      "dataQualityStandard": [], 
+      "application": {
+        "packageName": "com.google.android.gms"
+      }, 
+      "device": {
+        "model": "GT-I9505G", 
+        "version": "", 
+        "type": "phone", 
+        "uid": "46cecfa2", 
+        "manufacturer": "samsung"
+      }, 
+      "dataStreamId": "derived:com.google.distance.delta:com.google.android.gms:samsung:GT-I9505G:46cecfa2:from_activity<-raw:com.google.location.sample:com.google.android.gms:samsung:GT-I9505G:46cecfa2:", 
+      "type": "derived"
+    }, 
+    {
+      "dataStreamName": "from_activity<-raw:com.google.location.sample:com.google.android.gms:samsung:GT-I9505G:46cecfa2:live_location", 
+      "dataType": {
+        "field": [
+          {
+            "name": "distance", 
+            "format": "floatPoint"
+          }
+        ], 
+        "name": "com.google.distance.delta"
+      }, 
+      "dataQualityStandard": [], 
+      "application": {
+        "packageName": "com.google.android.gms"
+      }, 
+      "device": {
+        "model": "GT-I9505G", 
+        "version": "", 
+        "type": "phone", 
+        "uid": "46cecfa2", 
+        "manufacturer": "samsung"
+      }, 
+      "dataStreamId": "derived:com.google.distance.delta:com.google.android.gms:samsung:GT-I9505G:46cecfa2:from_activity<-raw:com.google.location.sample:com.google.android.gms:samsung:GT-I9505G:46cecfa2:live_location", 
+      "type": "derived"
+    }, 
+    {
+      "dataStreamName": "from_location<-raw:com.google.location.sample:com.google.android.gms:samsung:GT-I9505G:46cecfa2:", 
+      "dataType": {
+        "field": [
+          {
+            "name": "distance", 
+            "format": "floatPoint"
+          }
+        ], 
+        "name": "com.google.distance.delta"
+      }, 
+      "dataQualityStandard": [], 
+      "application": {
+        "packageName": "com.google.android.gms"
+      }, 
+      "device": {
+        "model": "GT-I9505G", 
+        "version": "", 
+        "type": "phone", 
+        "uid": "46cecfa2", 
+        "manufacturer": "samsung"
+      }, 
+      "dataStreamId": "derived:com.google.distance.delta:com.google.android.gms:samsung:GT-I9505G:46cecfa2:from_location<-raw:com.google.location.sample:com.google.android.gms:samsung:GT-I9505G:46cecfa2:", 
+      "type": "derived"
+    }, 
+    {
+      "dataStreamName": "from_location<-raw:com.google.location.sample:com.google.android.gms:samsung:GT-I9505G:46cecfa2:live_location", 
+      "dataType": {
+        "field": [
+          {
+            "name": "distance", 
+            "format": "floatPoint"
+          }
+        ], 
+        "name": "com.google.distance.delta"
+      }, 
+      "dataQualityStandard": [], 
+      "application": {
+        "packageName": "com.google.android.gms"
+      }, 
+      "device": {
+        "model": "GT-I9505G", 
+        "version": "", 
+        "type": "phone", 
+        "uid": "46cecfa2", 
+        "manufacturer": "samsung"
+      }, 
+      "dataStreamId": "derived:com.google.distance.delta:com.google.android.gms:samsung:GT-I9505G:46cecfa2:from_location<-raw:com.google.location.sample:com.google.android.gms:samsung:GT-I9505G:46cecfa2:live_location", 
+      "type": "derived"
+    }, 
+    {
+      "dataStreamName": "from_activity<-raw:com.google.location.sample:com.google.android.gms:samsung:GT-I9505G:674dd138:", 
+      "dataType": {
+        "field": [
+          {
+            "name": "distance", 
+            "format": "floatPoint"
+          }
+        ], 
+        "name": "com.google.distance.delta"
+      }, 
+      "dataQualityStandard": [], 
+      "application": {
+        "packageName": "com.google.android.gms"
+      }, 
+      "device": {
+        "model": "GT-I9505G", 
+        "version": "", 
+        "type": "phone", 
+        "uid": "674dd138", 
+        "manufacturer": "samsung"
+      }, 
+      "dataStreamId": "derived:com.google.distance.delta:com.google.android.gms:samsung:GT-I9505G:674dd138:from_activity<-raw:com.google.location.sample:com.google.android.gms:samsung:GT-I9505G:674dd138:", 
+      "type": "derived"
+    }, 
+    {
+      "dataStreamName": "from_location<-raw:com.google.location.sample:com.google.android.gms:samsung:GT-I9505G:674dd138:", 
+      "dataType": {
+        "field": [
+          {
+            "name": "distance", 
+            "format": "floatPoint"
+          }
+        ], 
+        "name": "com.google.distance.delta"
+      }, 
+      "dataQualityStandard": [], 
+      "application": {
+        "packageName": "com.google.android.gms"
+      }, 
+      "device": {
+        "model": "GT-I9505G", 
+        "version": "", 
+        "type": "phone", 
+        "uid": "674dd138", 
+        "manufacturer": "samsung"
+      }, 
+      "dataStreamId": "derived:com.google.distance.delta:com.google.android.gms:samsung:GT-I9505G:674dd138:from_location<-raw:com.google.location.sample:com.google.android.gms:samsung:GT-I9505G:674dd138:", 
+      "type": "derived"
+    }, 
+    {
+      "dataStreamName": "", 
+      "dataType": {
+        "field": [
+          {
+            "name": "distance", 
+            "format": "floatPoint"
+          }
+        ], 
+        "name": "com.google.distance.delta"
+      }, 
+      "dataQualityStandard": [], 
+      "application": {
+        "packageName": "com.google.android.gms"
+      }, 
+      "device": {
+        "model": "GT-I9505G", 
+        "version": "", 
+        "type": "phone", 
+        "uid": "dcb90c", 
+        "manufacturer": "samsung"
+      }, 
+      "dataStreamId": "derived:com.google.distance.delta:com.google.android.gms:samsung:GT-I9505G:dcb90c:", 
+      "type": "derived"
+    }, 
+    {
+      "dataStreamName": "from_activity<-derived:com.google.activity.sample:com.google.android.gms:samsung:GT-I9505G:dcb90c:detailed", 
+      "dataType": {
+        "field": [
+          {
+            "name": "distance", 
+            "format": "floatPoint"
+          }
+        ], 
+        "name": "com.google.distance.delta"
+      }, 
+      "dataQualityStandard": [], 
+      "application": {
+        "packageName": "com.google.android.gms"
+      }, 
+      "device": {
+        "model": "GT-I9505G", 
+        "version": "", 
+        "type": "phone", 
+        "uid": "dcb90c", 
+        "manufacturer": "samsung"
+      }, 
+      "dataStreamId": "derived:com.google.distance.delta:com.google.android.gms:samsung:GT-I9505G:dcb90c:from_activity<-derived:com.google.activity.sample:com.google.android.gms:samsung:GT-I9505G:dcb90c:detailed", 
+      "type": "derived"
+    }, 
+    {
+      "dataStreamName": "from_activity<-raw:com.google.location.sample:com.google.android.gms:samsung:SAMSUNG-SM-G930A:4b92c36f:live_location", 
+      "dataType": {
+        "field": [
+          {
+            "name": "distance", 
+            "format": "floatPoint"
+          }
+        ], 
+        "name": "com.google.distance.delta"
+      }, 
+      "dataQualityStandard": [], 
+      "application": {
+        "packageName": "com.google.android.gms", 
+        "version": "1"
+      }, 
+      "device": {
+        "model": "SAMSUNG-SM-G930A", 
+        "version": "", 
+        "type": "phone", 
+        "uid": "4b92c36f", 
+        "manufacturer": "samsung"
+      }, 
+      "dataStreamId": "derived:com.google.distance.delta:com.google.android.gms:samsung:SAMSUNG-SM-G930A:4b92c36f:from_activity<-raw:com.google.location.sample:com.google.android.gms:samsung:SAMSUNG-SM-G930A:4b92c36f:live_location", 
+      "type": "derived"
+    }, 
+    {
+      "dataStreamName": "from_location<-raw:com.google.location.sample:com.google.android.gms:samsung:SAMSUNG-SM-G930A:4b92c36f:live_location", 
+      "dataType": {
+        "field": [
+          {
+            "name": "distance", 
+            "format": "floatPoint"
+          }
+        ], 
+        "name": "com.google.distance.delta"
+      }, 
+      "dataQualityStandard": [], 
+      "application": {
+        "packageName": "com.google.android.gms", 
+        "version": "1"
+      }, 
+      "device": {
+        "model": "SAMSUNG-SM-G930A", 
+        "version": "", 
+        "type": "phone", 
+        "uid": "4b92c36f", 
+        "manufacturer": "samsung"
+      }, 
+      "dataStreamId": "derived:com.google.distance.delta:com.google.android.gms:samsung:SAMSUNG-SM-G930A:4b92c36f:from_location<-raw:com.google.location.sample:com.google.android.gms:samsung:SAMSUNG-SM-G930A:4b92c36f:live_location", 
+      "type": "derived"
+    }, 
+    {
+      "dataStreamName": "from_activity<-raw:com.google.location.sample:com.google.android.gms:samsung:SAMSUNG-SM-G930A:74ff53d7:live_location", 
+      "dataType": {
+        "field": [
+          {
+            "name": "distance", 
+            "format": "floatPoint"
+          }
+        ], 
+        "name": "com.google.distance.delta"
+      }, 
+      "dataQualityStandard": [], 
+      "application": {
+        "packageName": "com.google.android.gms"
+      }, 
+      "device": {
+        "model": "SAMSUNG-SM-G930A", 
+        "version": "", 
+        "type": "phone", 
+        "uid": "74ff53d7", 
+        "manufacturer": "samsung"
+      }, 
+      "dataStreamId": "derived:com.google.distance.delta:com.google.android.gms:samsung:SAMSUNG-SM-G930A:74ff53d7:from_activity<-raw:com.google.location.sample:com.google.android.gms:samsung:SAMSUNG-SM-G930A:74ff53d7:live_location", 
+      "type": "derived"
+    }, 
+    {
+      "dataStreamName": "from_location<-raw:com.google.location.sample:com.google.android.gms:samsung:SAMSUNG-SM-G930A:74ff53d7:live_location", 
+      "dataType": {
+        "field": [
+          {
+            "name": "distance", 
+            "format": "floatPoint"
+          }
+        ], 
+        "name": "com.google.distance.delta"
+      }, 
+      "dataQualityStandard": [], 
+      "application": {
+        "packageName": "com.google.android.gms"
+      }, 
+      "device": {
+        "model": "SAMSUNG-SM-G930A", 
+        "version": "", 
+        "type": "phone", 
+        "uid": "74ff53d7", 
+        "manufacturer": "samsung"
+      }, 
+      "dataStreamId": "derived:com.google.distance.delta:com.google.android.gms:samsung:SAMSUNG-SM-G930A:74ff53d7:from_location<-raw:com.google.location.sample:com.google.android.gms:samsung:SAMSUNG-SM-G930A:74ff53d7:live_location", 
+      "type": "derived"
+    }, 
+    {
+      "dataStreamName": "from_activity<-raw:com.google.location.sample:com.google.android.gms:samsung:SAMSUNG-SM-G930A:643394b0:live_location", 
+      "dataType": {
+        "field": [
+          {
+            "name": "distance", 
+            "format": "floatPoint"
+          }
+        ], 
+        "name": "com.google.distance.delta"
+      }, 
+      "dataQualityStandard": [], 
+      "application": {
+        "packageName": "com.google.android.gms"
+      }, 
+      "device": {
+        "model": "SAMSUNG-SM-G930A", 
+        "version": "", 
+        "type": "phone", 
+        "uid": "643394b0", 
+        "manufacturer": "samsung"
+      }, 
+      "dataStreamId": "derived:com.google.distance.delta:com.google.android.gms:samsung:SAMSUNG-SM-G930A:643394b0:from_activity<-raw:com.google.location.sample:com.google.android.gms:samsung:SAMSUNG-SM-G930A:643394b0:live_location", 
+      "type": "derived"
+    }, 
+    {
+      "dataStreamName": "from_location<-raw:com.google.location.sample:com.google.android.gms:samsung:SAMSUNG-SM-G930A:643394b0:live_location", 
+      "dataType": {
+        "field": [
+          {
+            "name": "distance", 
+            "format": "floatPoint"
+          }
+        ], 
+        "name": "com.google.distance.delta"
+      }, 
+      "dataQualityStandard": [], 
+      "application": {
+        "packageName": "com.google.android.gms"
+      }, 
+      "device": {
+        "model": "SAMSUNG-SM-G930A", 
+        "version": "", 
+        "type": "phone", 
+        "uid": "643394b0", 
+        "manufacturer": "samsung"
+      }, 
+      "dataStreamId": "derived:com.google.distance.delta:com.google.android.gms:samsung:SAMSUNG-SM-G930A:643394b0:from_location<-raw:com.google.location.sample:com.google.android.gms:samsung:SAMSUNG-SM-G930A:643394b0:live_location", 
+      "type": "derived"
+    }, 
+    {
+      "dataStreamName": "from_activity<-raw:com.google.location.sample:com.google.android.gms:samsung:SAMSUNG-SM-G930A:21f23d07:live_location", 
+      "dataType": {
+        "field": [
+          {
+            "name": "distance", 
+            "format": "floatPoint"
+          }
+        ], 
+        "name": "com.google.distance.delta"
+      }, 
+      "dataQualityStandard": [], 
+      "application": {
+        "packageName": "com.google.android.gms"
+      }, 
+      "device": {
+        "model": "SAMSUNG-SM-G930A", 
+        "version": "", 
+        "type": "phone", 
+        "uid": "21f23d07", 
+        "manufacturer": "samsung"
+      }, 
+      "dataStreamId": "derived:com.google.distance.delta:com.google.android.gms:samsung:SAMSUNG-SM-G930A:21f23d07:from_activity<-raw:com.google.location.sample:com.google.android.gms:samsung:SAMSUNG-SM-G930A:21f23d07:live_location", 
+      "type": "derived"
+    }, 
+    {
+      "dataStreamName": "from_location<-raw:com.google.location.sample:com.google.android.gms:samsung:SAMSUNG-SM-G930A:21f23d07:live_location", 
+      "dataType": {
+        "field": [
+          {
+            "name": "distance", 
+            "format": "floatPoint"
+          }
+        ], 
+        "name": "com.google.distance.delta"
+      }, 
+      "dataQualityStandard": [], 
+      "application": {
+        "packageName": "com.google.android.gms"
+      }, 
+      "device": {
+        "model": "SAMSUNG-SM-G930A", 
+        "version": "", 
+        "type": "phone", 
+        "uid": "21f23d07", 
+        "manufacturer": "samsung"
+      }, 
+      "dataStreamId": "derived:com.google.distance.delta:com.google.android.gms:samsung:SAMSUNG-SM-G930A:21f23d07:from_location<-raw:com.google.location.sample:com.google.android.gms:samsung:SAMSUNG-SM-G930A:21f23d07:live_location", 
+      "type": "derived"
+    }, 
+    {
+      "dataQualityStandard": [], 
+      "dataType": {
+        "field": [
+          {
+            "name": "distance", 
+            "format": "floatPoint"
+          }
+        ], 
+        "name": "com.google.distance.delta"
+      }, 
+      "dataStreamName": "third_party_from_activity<-derived:com.google.location.sample:com.nike.plusgps:", 
+      "application": {
+        "packageName": "com.google.android.gms"
+      }, 
+      "dataStreamId": "derived:com.google.distance.delta:com.google.android.gms:third_party_from_activity<-derived:com.google.location.sample:com.nike.plusgps:", 
+      "type": "derived"
+    }, 
+    {
+      "dataQualityStandard": [], 
+      "dataType": {
+        "field": [
+          {
+            "name": "distance", 
+            "format": "floatPoint"
+          }
+        ], 
+        "name": "com.google.distance.delta"
+      }, 
+      "dataStreamName": "third_party_from_activity<-raw:com.google.location.sample:com.google.android.maps.mytracks:", 
+      "application": {
+        "packageName": "com.google.android.gms"
+      }, 
+      "dataStreamId": "derived:com.google.distance.delta:com.google.android.gms:third_party_from_activity<-raw:com.google.location.sample:com.google.android.maps.mytracks:", 
+      "type": "derived"
+    }, 
+    {
+      "dataQualityStandard": [], 
+      "dataType": {
+        "field": [
+          {
+            "name": "distance", 
+            "format": "floatPoint"
+          }
+        ], 
+        "name": "com.google.distance.delta"
+      }, 
+      "dataStreamName": "from_third_party_location<-raw:com.google.location.sample:com.google.android.maps.mytracks:", 
+      "application": {
+        "packageName": "com.google.android.maps.mytracks"
+      }, 
+      "dataStreamId": "derived:com.google.distance.delta:com.google.android.maps.mytracks:from_third_party_location<-raw:com.google.location.sample:com.google.android.maps.mytracks:", 
+      "type": "derived"
+    }, 
+    {
+      "name": "DISTANCE_DELTA", 
+      "dataStreamName": "", 
+      "dataType": {
+        "field": [
+          {
+            "name": "distance", 
+            "format": "floatPoint"
+          }
+        ], 
+        "name": "com.google.distance.delta"
+      }, 
+      "dataQualityStandard": [], 
+      "application": {
+        "packageName": "com.nike.plusgps"
+      }, 
+      "dataStreamId": "derived:com.google.distance.delta:com.nike.plusgps:", 
+      "type": "derived"
+    }, 
+    {
+      "dataQualityStandard": [], 
+      "dataType": {
+        "field": [
+          {
+            "name": "distance", 
+            "format": "floatPoint"
+          }
+        ], 
+        "name": "com.google.distance.delta"
+      }, 
+      "dataStreamName": "from_third_party_location<-derived:com.google.location.sample:com.nike.plusgps:", 
+      "application": {
+        "packageName": "com.nike.plusgps"
+      }, 
+      "dataStreamId": "derived:com.google.distance.delta:com.nike.plusgps:from_third_party_location<-derived:com.google.location.sample:com.nike.plusgps:", 
+      "type": "derived"
+    }, 
+    {
+      "name": "strava-distance", 
+      "dataStreamName": "", 
+      "dataType": {
+        "field": [
+          {
+            "name": "distance", 
+            "format": "floatPoint"
+          }
+        ], 
+        "name": "com.google.distance.delta"
+      }, 
+      "dataQualityStandard": [], 
+      "application": {
+        "packageName": "com.strava"
+      }, 
+      "dataStreamId": "derived:com.google.distance.delta:com.strava:", 
+      "type": "derived"
+    }, 
+    {
+      "dataStreamName": "top_level", 
+      "dataType": {
+        "field": [
+          {
+            "name": "intensity", 
+            "format": "floatPoint"
+          }
+        ], 
+        "name": "com.google.heart_minutes"
+      }, 
+      "dataQualityStandard": [], 
+      "application": {
+        "packageName": "com.google.android.fit"
+      }, 
+      "device": {
+        "model": "Q Explorist HR", 
+        "version": "", 
+        "type": "watch", 
+        "uid": "406b5320", 
+        "manufacturer": "Compal"
+      }, 
+      "dataStreamId": "derived:com.google.heart_minutes:com.google.android.fit:Compal:Q Explorist HR:406b5320:top_level", 
+      "type": "derived"
+    }, 
+    {
+      "dataStreamName": "top_level", 
+      "dataType": {
+        "field": [
+          {
+            "name": "intensity", 
+            "format": "floatPoint"
+          }
+        ], 
+        "name": "com.google.heart_minutes"
+      }, 
+      "dataQualityStandard": [], 
+      "application": {
+        "packageName": "com.google.android.fit"
+      }, 
+      "device": {
+        "model": "Redmi Note 8 Pro", 
+        "version": "", 
+        "type": "phone", 
+        "uid": "c1b4b9e3", 
+        "manufacturer": "Xiaomi"
+      }, 
+      "dataStreamId": "derived:com.google.heart_minutes:com.google.android.fit:Xiaomi:Redmi Note 8 Pro:c1b4b9e3:top_level", 
+      "type": "derived"
+    }, 
+    {
+      "dataQualityStandard": [], 
+      "dataType": {
+        "field": [
+          {
+            "name": "intensity", 
+            "format": "floatPoint"
+          }
+        ], 
+        "name": "com.google.heart_minutes"
+      }, 
+      "dataStreamName": "bout_filtered_5min<-merge_heart_minutes", 
+      "application": {
+        "packageName": "com.google.android.gms", 
+        "version": "1"
+      }, 
+      "dataStreamId": "derived:com.google.heart_minutes:com.google.android.gms:bout_filtered_5min<-merge_heart_minutes", 
+      "type": "derived"
+    }, 
+    {
+      "dataQualityStandard": [], 
+      "dataType": {
+        "field": [
+          {
+            "name": "intensity", 
+            "format": "floatPoint"
+          }
+        ], 
+        "name": "com.google.heart_minutes"
+      }, 
+      "dataStreamName": "from_heart_rate<-interpolated_heart_rate", 
+      "application": {
+        "packageName": "com.google.android.gms", 
+        "version": "1"
+      }, 
+      "dataStreamId": "derived:com.google.heart_minutes:com.google.android.gms:from_heart_rate<-interpolated_heart_rate", 
+      "type": "derived"
+    }, 
+    {
+      "dataQualityStandard": [], 
+      "dataType": {
+        "field": [
+          {
+            "name": "intensity", 
+            "format": "floatPoint"
+          }
+        ], 
+        "name": "com.google.heart_minutes"
+      }, 
+      "dataStreamName": "from_heart_rate<-merge_heart_rate_bpm", 
+      "application": {
+        "packageName": "com.google.android.gms", 
+        "version": "1"
+      }, 
+      "dataStreamId": "derived:com.google.heart_minutes:com.google.android.gms:from_heart_rate<-merge_heart_rate_bpm", 
+      "type": "derived"
+    }, 
+    {
+      "dataQualityStandard": [], 
+      "dataType": {
+        "field": [
+          {
+            "name": "intensity", 
+            "format": "floatPoint"
+          }
+        ], 
+        "name": "com.google.heart_minutes"
+      }, 
+      "dataStreamName": "merge_heart_minutes", 
+      "application": {
+        "packageName": "com.google.android.gms", 
+        "version": "1"
+      }, 
+      "dataStreamId": "derived:com.google.heart_minutes:com.google.android.gms:merge_heart_minutes", 
+      "type": "derived"
+    }, 
+    {
+      "dataQualityStandard": [], 
+      "dataType": {
+        "field": [
+          {
+            "name": "intensity", 
+            "format": "floatPoint"
+          }
+        ], 
+        "name": "com.google.heart_minutes"
+      }, 
+      "dataStreamName": "normalised<-bout_filtered_5min", 
+      "application": {
+        "packageName": "com.google.android.gms", 
+        "version": "1"
+      }, 
+      "dataStreamId": "derived:com.google.heart_minutes:com.google.android.gms:normalised<-bout_filtered_5min", 
+      "type": "derived"
+    }, 
+    {
+      "dataStreamName": "top_level", 
+      "dataType": {
+        "field": [
+          {
+            "name": "bpm", 
+            "format": "floatPoint"
+          }
+        ], 
+        "name": "com.google.heart_rate.bpm"
+      }, 
+      "dataQualityStandard": [], 
+      "application": {
+        "packageName": "com.google.android.fit"
+      }, 
+      "device": {
+        "model": "Q Explorist HR", 
+        "version": "", 
+        "type": "watch", 
+        "uid": "406b5320", 
+        "manufacturer": "Compal"
+      }, 
+      "dataStreamId": "derived:com.google.heart_rate.bpm:com.google.android.fit:Compal:Q Explorist HR:406b5320:top_level", 
+      "type": "derived"
+    }, 
+    {
+      "dataStreamName": "top_level_resting_heart_rate", 
+      "dataType": {
+        "field": [
+          {
+            "name": "bpm", 
+            "format": "floatPoint"
+          }
+        ], 
+        "name": "com.google.heart_rate.bpm"
+      }, 
+      "dataQualityStandard": [], 
+      "application": {
+        "packageName": "com.google.android.fit"
+      }, 
+      "device": {
+        "model": "Q Explorist HR", 
+        "version": "", 
+        "type": "watch", 
+        "uid": "406b5320", 
+        "manufacturer": "Compal"
+      }, 
+      "dataStreamId": "derived:com.google.heart_rate.bpm:com.google.android.fit:Compal:Q Explorist HR:406b5320:top_level_resting_heart_rate", 
+      "type": "derived"
+    }, 
+    {
+      "dataQualityStandard": [], 
+      "dataType": {
+        "field": [
+          {
+            "name": "bpm", 
+            "format": "floatPoint"
+          }
+        ], 
+        "name": "com.google.heart_rate.bpm"
+      }, 
+      "dataStreamName": "merge_heart_rate_bpm", 
+      "application": {
+        "packageName": "com.google.android.gms"
+      }, 
+      "dataStreamId": "derived:com.google.heart_rate.bpm:com.google.android.gms:merge_heart_rate_bpm", 
+      "type": "derived"
+    }, 
+    {
+      "dataQualityStandard": [], 
+      "dataType": {
+        "field": [
+          {
+            "name": "bpm", 
+            "format": "floatPoint"
+          }
+        ], 
+        "name": "com.google.heart_rate.bpm"
+      }, 
+      "dataStreamName": "merge_heart_rate_bpm_local", 
+      "application": {
+        "packageName": "com.google.android.gms"
+      }, 
+      "dataStreamId": "derived:com.google.heart_rate.bpm:com.google.android.gms:merge_heart_rate_bpm_local", 
+      "type": "derived"
+    }, 
+    {
+      "dataQualityStandard": [], 
+      "dataType": {
+        "field": [
+          {
+            "name": "bpm", 
+            "format": "floatPoint"
+          }
+        ], 
+        "name": "com.google.heart_rate.bpm"
+      }, 
+      "dataStreamName": "resting_heart_rate<-merge_heart_rate_bpm", 
+      "application": {
+        "packageName": "com.google.android.gms"
+      }, 
+      "dataStreamId": "derived:com.google.heart_rate.bpm:com.google.android.gms:resting_heart_rate<-merge_heart_rate_bpm", 
+      "type": "derived"
+    }, 
+    {
+      "dataQualityStandard": [], 
+      "dataType": {
+        "field": [
+          {
+            "name": "bpm", 
+            "format": "floatPoint"
+          }
+        ], 
+        "name": "com.google.heart_rate.bpm"
+      }, 
+      "dataStreamName": "resting_heart_rate_local<-merge_heart_rate_bpm", 
+      "application": {
+        "packageName": "com.google.android.gms"
+      }, 
+      "dataStreamId": "derived:com.google.heart_rate.bpm:com.google.android.gms:resting_heart_rate_local<-merge_heart_rate_bpm", 
+      "type": "derived"
+    }, 
+    {
+      "dataQualityStandard": [], 
+      "dataType": {
+        "field": [
+          {
+            "name": "height", 
+            "format": "floatPoint"
+          }
+        ], 
+        "name": "com.google.height"
+      }, 
+      "dataStreamName": "merge_height", 
+      "application": {
+        "packageName": "com.google.android.gms", 
+        "version": ""
+      }, 
+      "dataStreamId": "derived:com.google.height:com.google.android.gms:merge_height", 
+      "type": "derived"
+    }, 
+    {
+      "dataQualityStandard": [], 
+      "dataType": {
+        "field": [
+          {
+            "name": "oxygen_saturation", 
+            "format": "floatPoint"
+          }, 
+          {
+            "name": "supplemental_oxygen_flow_rate", 
+            "format": "floatPoint"
+          }, 
+          {
+            "optional": true, 
+            "name": "oxygen_therapy_administration_mode", 
+            "format": "integer"
+          }, 
+          {
+            "optional": true, 
+            "name": "oxygen_saturation_system", 
+            "format": "integer"
+          }, 
+          {
+            "optional": true, 
+            "name": "oxygen_saturation_measurement_method", 
+            "format": "integer"
+          }
+        ], 
+        "name": "com.google.oxygen_saturation"
+      }, 
+      "dataStreamName": "merged", 
+      "application": {
+        "packageName": "com.google.android.gms"
+      }, 
+      "dataStreamId": "derived:com.google.oxygen_saturation:com.google.android.gms:merged", 
+      "type": "derived"
+    }, 
+    {
+      "dataQualityStandard": [], 
+      "dataType": {
+        "field": [
+          {
+            "name": "sleep_segment_type", 
+            "format": "integer"
+          }
+        ], 
+        "name": "com.google.sleep.segment"
+      }, 
+      "dataStreamName": "merged", 
+      "application": {
+        "packageName": "com.google.android.gms"
+      }, 
+      "dataStreamId": "derived:com.google.sleep.segment:com.google.android.gms:merged", 
+      "type": "derived"
+    }, 
+    {
+      "name": "SPEED_SUMMARY", 
+      "dataStreamName": "", 
+      "dataType": {
+        "field": [
+          {
+            "name": "average", 
+            "format": "floatPoint"
+          }, 
+          {
+            "name": "max", 
+            "format": "floatPoint"
+          }, 
+          {
+            "name": "min", 
+            "format": "floatPoint"
+          }
+        ], 
+        "name": "com.google.speed.summary"
+      }, 
+      "dataQualityStandard": [], 
+      "application": {
+        "packageName": "com.nike.plusgps"
+      }, 
+      "dataStreamId": "derived:com.google.speed.summary:com.nike.plusgps:", 
+      "type": "derived"
+    }, 
+    {
+      "dataStreamName": "top_level", 
+      "dataType": {
+        "field": [
+          {
+            "name": "speed", 
+            "format": "floatPoint"
+          }
+        ], 
+        "name": "com.google.speed"
+      }, 
+      "dataQualityStandard": [], 
+      "application": {
+        "packageName": "com.google.android.fit"
+      }, 
+      "device": {
+        "model": "Q Explorist HR", 
+        "version": "", 
+        "type": "watch", 
+        "uid": "406b5320", 
+        "manufacturer": "Compal"
+      }, 
+      "dataStreamId": "derived:com.google.speed:com.google.android.fit:Compal:Q Explorist HR:406b5320:top_level", 
+      "type": "derived"
+    }, 
+    {
+      "dataStreamName": "top_level", 
+      "dataType": {
+        "field": [
+          {
+            "name": "speed", 
+            "format": "floatPoint"
+          }
+        ], 
+        "name": "com.google.speed"
+      }, 
+      "dataQualityStandard": [], 
+      "application": {
+        "packageName": "com.google.android.fit"
+      }, 
+      "device": {
+        "model": "Redmi Note 8 Pro", 
+        "version": "", 
+        "type": "phone", 
+        "uid": "c1b4b9e3", 
+        "manufacturer": "Xiaomi"
+      }, 
+      "dataStreamId": "derived:com.google.speed:com.google.android.fit:Xiaomi:Redmi Note 8 Pro:c1b4b9e3:top_level", 
+      "type": "derived"
+    }, 
+    {
+      "dataQualityStandard": [], 
+      "dataType": {
+        "field": [
+          {
+            "name": "speed", 
+            "format": "floatPoint"
+          }
+        ], 
+        "name": "com.google.speed"
+      }, 
+      "dataStreamName": "merge_speed", 
+      "application": {
+        "packageName": "com.google.android.gms"
+      }, 
+      "dataStreamId": "derived:com.google.speed:com.google.android.gms:merge_speed", 
+      "type": "derived"
+    }, 
+    {
+      "dataStreamName": "", 
+      "dataType": {
+        "field": [
+          {
+            "name": "speed", 
+            "format": "floatPoint"
+          }
+        ], 
+        "name": "com.google.speed"
+      }, 
+      "dataQualityStandard": [], 
+      "application": {
+        "packageName": "com.google.android.gms"
+      }, 
+      "device": {
+        "model": "GT-I9505G", 
+        "version": "", 
+        "type": "unknown", 
+        "uid": "3438a7d9", 
+        "manufacturer": "samsung"
+      }, 
+      "dataStreamId": "derived:com.google.speed:com.google.android.gms:samsung:GT-I9505G:3438a7d9:", 
+      "type": "derived"
+    }, 
+    {
+      "dataStreamName": "", 
+      "dataType": {
+        "field": [
+          {
+            "name": "speed", 
+            "format": "floatPoint"
+          }
+        ], 
+        "name": "com.google.speed"
+      }, 
+      "dataQualityStandard": [], 
+      "application": {
+        "packageName": "com.google.android.gms"
+      }, 
+      "device": {
+        "model": "GT-I9505G", 
+        "version": "", 
+        "type": "phone", 
+        "uid": "46cecfa2", 
+        "manufacturer": "samsung"
+      }, 
+      "dataStreamId": "derived:com.google.speed:com.google.android.gms:samsung:GT-I9505G:46cecfa2:", 
+      "type": "derived"
+    }, 
+    {
+      "dataStreamName": "", 
+      "dataType": {
+        "field": [
+          {
+            "name": "speed", 
+            "format": "floatPoint"
+          }
+        ], 
+        "name": "com.google.speed"
+      }, 
+      "dataQualityStandard": [], 
+      "application": {
+        "packageName": "com.google.android.gms"
+      }, 
+      "device": {
+        "model": "GT-I9505G", 
+        "version": "", 
+        "type": "phone", 
+        "uid": "674dd138", 
+        "manufacturer": "samsung"
+      }, 
+      "dataStreamId": "derived:com.google.speed:com.google.android.gms:samsung:GT-I9505G:674dd138:", 
+      "type": "derived"
+    }, 
+    {
+      "dataStreamName": "", 
+      "dataType": {
+        "field": [
+          {
+            "name": "speed", 
+            "format": "floatPoint"
+          }
+        ], 
+        "name": "com.google.speed"
+      }, 
+      "dataQualityStandard": [], 
+      "application": {
+        "packageName": "com.google.android.gms"
+      }, 
+      "device": {
+        "model": "GT-I9505G", 
+        "version": "", 
+        "type": "phone", 
+        "uid": "dcb90c", 
+        "manufacturer": "samsung"
+      }, 
+      "dataStreamId": "derived:com.google.speed:com.google.android.gms:samsung:GT-I9505G:dcb90c:", 
+      "type": "derived"
+    }, 
+    {
+      "name": "SPEED", 
+      "dataStreamName": "", 
+      "dataType": {
+        "field": [
+          {
+            "name": "speed", 
+            "format": "floatPoint"
+          }
+        ], 
+        "name": "com.google.speed"
+      }, 
+      "dataQualityStandard": [], 
+      "application": {
+        "packageName": "com.nike.plusgps"
+      }, 
+      "dataStreamId": "derived:com.google.speed:com.nike.plusgps:", 
+      "type": "derived"
+    }, 
+    {
+      "dataStreamName": "soft_step_counter", 
+      "dataType": {
+        "field": [
+          {
+            "name": "steps", 
+            "format": "integer"
+          }
+        ], 
+        "name": "com.google.step_count.cumulative"
+      }, 
+      "dataQualityStandard": [], 
+      "application": {
+        "packageName": "com.google.android.gms"
+      }, 
+      "device": {
+        "model": "R1 HD", 
+        "version": "", 
+        "type": "phone", 
+        "uid": "3a561968", 
+        "manufacturer": "BLU"
+      }, 
+      "dataStreamId": "derived:com.google.step_count.cumulative:com.google.android.gms:BLU:R1 HD:3a561968:soft_step_counter", 
+      "type": "derived"
+    }, 
+    {
+      "dataStreamName": "MyDataSource", 
+      "dataType": {
+        "field": [
+          {
+            "name": "steps", 
+            "format": "integer"
+          }
+        ], 
+        "name": "com.google.step_count.delta"
+      }, 
+      "dataQualityStandard": [], 
+      "application": {
+        "version": "1", 
+        "name": "Foo Example App", 
+        "detailsUrl": "http://example.com"
+      }, 
+      "device": {
+        "model": "ExampleTablet", 
+        "version": "1", 
+        "type": "tablet", 
+        "uid": "1000001", 
+        "manufacturer": "Example Manufacturer"
+      }, 
+      "dataStreamId": "derived:com.google.step_count.delta:407408718192:Example Manufacturer:ExampleTablet:1000001:MyDataSource", 
+      "type": "derived"
+    }, 
+    {
+      "dataStreamName": "top_level", 
+      "dataType": {
+        "field": [
+          {
+            "name": "steps", 
+            "format": "integer"
+          }
+        ], 
+        "name": "com.google.step_count.delta"
+      }, 
+      "dataQualityStandard": [], 
+      "application": {
+        "packageName": "com.google.android.fit"
+      }, 
+      "device": {
+        "model": "Q Explorist HR", 
+        "version": "", 
+        "type": "watch", 
+        "uid": "406b5320", 
+        "manufacturer": "Compal"
+      }, 
+      "dataStreamId": "derived:com.google.step_count.delta:com.google.android.fit:Compal:Q Explorist HR:406b5320:top_level", 
+      "type": "derived"
+    }, 
+    {
+      "dataStreamName": "top_level", 
+      "dataType": {
+        "field": [
+          {
+            "name": "steps", 
+            "format": "integer"
+          }
+        ], 
+        "name": "com.google.step_count.delta"
+      }, 
+      "dataQualityStandard": [], 
+      "application": {
+        "packageName": "com.google.android.fit"
+      }, 
+      "device": {
+        "model": "Redmi Note 8 Pro", 
+        "version": "", 
+        "type": "phone", 
+        "uid": "c1b4b9e3", 
+        "manufacturer": "Xiaomi"
+      }, 
+      "dataStreamId": "derived:com.google.step_count.delta:com.google.android.fit:Xiaomi:Redmi Note 8 Pro:c1b4b9e3:top_level", 
+      "type": "derived"
+    }, 
+    {
+      "dataStreamName": "derive_step_deltas<-derived:com.google.step_count.cumulative:com.google.android.gms:BLU:R1 HD:3a561968:soft_step_counter", 
+      "dataType": {
+        "field": [
+          {
+            "name": "steps", 
+            "format": "integer"
+          }
+        ], 
+        "name": "com.google.step_count.delta"
+      }, 
+      "dataQualityStandard": [], 
+      "application": {
+        "packageName": "com.google.android.gms"
+      }, 
+      "device": {
+        "model": "R1 HD", 
+        "version": "", 
+        "type": "phone", 
+        "uid": "3a561968", 
+        "manufacturer": "BLU"
+      }, 
+      "dataStreamId": "derived:com.google.step_count.delta:com.google.android.gms:BLU:R1 HD:3a561968:derive_step_deltas<-derived:com.google.step_count.cumulative:com.google.android.gms:BLU:R1 HD:3a561968:soft_step_counter", 
+      "type": "derived"
+    }, 
+    {
+      "dataStreamName": "derive_step_deltas<-raw:com.google.step_count.cumulative:Compal:Q Explorist HR:406b5320:Step Counter", 
+      "dataType": {
+        "field": [
+          {
+            "name": "steps", 
+            "format": "integer"
+          }
+        ], 
+        "name": "com.google.step_count.delta"
+      }, 
+      "dataQualityStandard": [], 
+      "application": {
+        "packageName": "com.google.android.gms"
+      }, 
+      "device": {
+        "model": "Q Explorist HR", 
+        "version": "", 
+        "type": "watch", 
+        "uid": "406b5320", 
+        "manufacturer": "Compal"
+      }, 
+      "dataStreamId": "derived:com.google.step_count.delta:com.google.android.gms:Compal:Q Explorist HR:406b5320:derive_step_deltas<-raw:com.google.step_count.cumulative:Compal:Q Explorist HR:406b5320:Step Counter", 
+      "type": "derived"
+    }, 
+    {
+      "dataStreamName": "derive_step_deltas<-raw:com.google.step_count.cumulative:Xiaomi:Redmi Note 8 Pro:c1b4b9e3:STEP_COUNTER", 
+      "dataType": {
+        "field": [
+          {
+            "name": "steps", 
+            "format": "integer"
+          }
+        ], 
+        "name": "com.google.step_count.delta"
+      }, 
+      "dataQualityStandard": [], 
+      "application": {
+        "packageName": "com.google.android.gms"
+      }, 
+      "device": {
+        "model": "Redmi Note 8 Pro", 
+        "version": "", 
+        "type": "phone", 
+        "uid": "c1b4b9e3", 
+        "manufacturer": "Xiaomi"
+      }, 
+      "dataStreamId": "derived:com.google.step_count.delta:com.google.android.gms:Xiaomi:Redmi Note 8 Pro:c1b4b9e3:derive_step_deltas<-raw:com.google.step_count.cumulative:Xiaomi:Redmi Note 8 Pro:c1b4b9e3:STEP_COUNTER", 
+      "type": "derived"
+    }, 
+    {
+      "dataQualityStandard": [], 
+      "dataType": {
+        "field": [
+          {
+            "name": "steps", 
+            "format": "integer"
+          }
+        ], 
+        "name": "com.google.step_count.delta"
+      }, 
+      "dataStreamName": "derive_step_deltas<-raw:com.google.step_count.cumulative:samsung:GT-I9505G:dcb90c:SAMSUNG Step Counter Sensor", 
+      "application": {
+        "packageName": "com.google.android.gms"
+      }, 
+      "dataStreamId": "derived:com.google.step_count.delta:com.google.android.gms:derive_step_deltas<-raw:com.google.step_count.cumulative:samsung:GT-I9505G:dcb90c:SAMSUNG Step Counter Sensor", 
+      "type": "derived"
+    }, 
+    {
+      "dataQualityStandard": [], 
+      "dataType": {
+        "field": [
+          {
+            "name": "steps", 
+            "format": "integer"
+          }
+        ], 
+        "name": "com.google.step_count.delta"
+      }, 
+      "dataStreamName": "estimated_steps", 
+      "application": {
+        "packageName": "com.google.android.gms"
+      }, 
+      "dataStreamId": "derived:com.google.step_count.delta:com.google.android.gms:estimated_steps", 
+      "type": "derived"
+    }, 
+    {
+      "dataQualityStandard": [], 
+      "dataType": {
+        "field": [
+          {
+            "name": "steps", 
+            "format": "integer"
+          }
+        ], 
+        "name": "com.google.step_count.delta"
+      }, 
+      "dataStreamName": "merge_step_deltas", 
+      "application": {
+        "packageName": "com.google.android.gms", 
+        "version": ""
+      }, 
+      "dataStreamId": "derived:com.google.step_count.delta:com.google.android.gms:merge_step_deltas", 
+      "type": "derived"
+    }, 
+    {
+      "dataQualityStandard": [], 
+      "dataType": {
+        "field": [
+          {
+            "name": "steps", 
+            "format": "integer"
+          }
+        ], 
+        "name": "com.google.step_count.delta"
+      }, 
+      "dataStreamName": "merge_step_deltas_local", 
+      "application": {
+        "packageName": "com.google.android.gms"
+      }, 
+      "dataStreamId": "derived:com.google.step_count.delta:com.google.android.gms:merge_step_deltas_local", 
+      "type": "derived"
+    }, 
+    {
+      "dataStreamName": "derive_step_deltas<-raw:com.google.step_count.cumulative:samsung:GT-I9505G:2dcefb02:SAMSUNG Step Counter Sensor", 
+      "dataType": {
+        "field": [
+          {
+            "name": "steps", 
+            "format": "integer"
+          }
+        ], 
+        "name": "com.google.step_count.delta"
+      }, 
+      "dataQualityStandard": [], 
+      "application": {
+        "packageName": "com.google.android.gms"
+      }, 
+      "device": {
+        "model": "GT-I9505G", 
+        "version": "", 
+        "type": "phone", 
+        "uid": "2dcefb02", 
+        "manufacturer": "samsung"
+      }, 
+      "dataStreamId": "derived:com.google.step_count.delta:com.google.android.gms:samsung:GT-I9505G:2dcefb02:derive_step_deltas<-raw:com.google.step_count.cumulative:samsung:GT-I9505G:2dcefb02:SAMSUNG Step Counter Sensor", 
+      "type": "derived"
+    }, 
+    {
+      "dataStreamName": "derive_step_deltas<-raw:com.google.step_count.cumulative:samsung:GT-I9505G:3438a7d9:SAMSUNG Step Counter Sensor", 
+      "dataType": {
+        "field": [
+          {
+            "name": "steps", 
+            "format": "integer"
+          }
+        ], 
+        "name": "com.google.step_count.delta"
+      }, 
+      "dataQualityStandard": [], 
+      "application": {
+        "packageName": "com.google.android.gms"
+      }, 
+      "device": {
+        "model": "GT-I9505G", 
+        "version": "", 
+        "type": "unknown", 
+        "uid": "3438a7d9", 
+        "manufacturer": "samsung"
+      }, 
+      "dataStreamId": "derived:com.google.step_count.delta:com.google.android.gms:samsung:GT-I9505G:3438a7d9:derive_step_deltas<-raw:com.google.step_count.cumulative:samsung:GT-I9505G:3438a7d9:SAMSUNG Step Counter Sensor", 
+      "type": "derived"
+    }, 
+    {
+      "dataStreamName": "derive_step_deltas<-raw:com.google.step_count.cumulative:samsung:GT-I9505G:46cecfa2:SAMSUNG Step Counter Sensor", 
+      "dataType": {
+        "field": [
+          {
+            "name": "steps", 
+            "format": "integer"
+          }
+        ], 
+        "name": "com.google.step_count.delta"
+      }, 
+      "dataQualityStandard": [], 
+      "application": {
+        "packageName": "com.google.android.gms"
+      }, 
+      "device": {
+        "model": "GT-I9505G", 
+        "version": "", 
+        "type": "phone", 
+        "uid": "46cecfa2", 
+        "manufacturer": "samsung"
+      }, 
+      "dataStreamId": "derived:com.google.step_count.delta:com.google.android.gms:samsung:GT-I9505G:46cecfa2:derive_step_deltas<-raw:com.google.step_count.cumulative:samsung:GT-I9505G:46cecfa2:SAMSUNG Step Counter Sensor", 
+      "type": "derived"
+    }, 
+    {
+      "dataStreamName": "derive_step_deltas<-raw:com.google.step_count.cumulative:samsung:GT-I9505G:674dd138:SAMSUNG Step Counter Sensor", 
+      "dataType": {
+        "field": [
+          {
+            "name": "steps", 
+            "format": "integer"
+          }
+        ], 
+        "name": "com.google.step_count.delta"
+      }, 
+      "dataQualityStandard": [], 
+      "application": {
+        "packageName": "com.google.android.gms"
+      }, 
+      "device": {
+        "model": "GT-I9505G", 
+        "version": "", 
+        "type": "phone", 
+        "uid": "674dd138", 
+        "manufacturer": "samsung"
+      }, 
+      "dataStreamId": "derived:com.google.step_count.delta:com.google.android.gms:samsung:GT-I9505G:674dd138:derive_step_deltas<-raw:com.google.step_count.cumulative:samsung:GT-I9505G:674dd138:SAMSUNG Step Counter Sensor", 
+      "type": "derived"
+    }, 
+    {
+      "dataStreamName": "derive_step_deltas<-raw:com.google.step_count.cumulative:samsung:GT-I9505G:dcb90c:SAMSUNG Step Counter Sensor", 
+      "dataType": {
+        "field": [
+          {
+            "name": "steps", 
+            "format": "integer"
+          }
+        ], 
+        "name": "com.google.step_count.delta"
+      }, 
+      "dataQualityStandard": [], 
+      "application": {
+        "packageName": "com.google.android.gms"
+      }, 
+      "device": {
+        "model": "GT-I9505G", 
+        "version": "", 
+        "type": "phone", 
+        "uid": "dcb90c", 
+        "manufacturer": "samsung"
+      }, 
+      "dataStreamId": "derived:com.google.step_count.delta:com.google.android.gms:samsung:GT-I9505G:dcb90c:derive_step_deltas<-raw:com.google.step_count.cumulative:samsung:GT-I9505G:dcb90c:SAMSUNG Step Counter Sensor", 
+      "type": "derived"
+    }, 
+    {
+      "dataStreamName": "derive_step_deltas<-raw:com.google.step_count.cumulative:samsung:SAMSUNG-SM-G930A:4b92c36f:Step Counter", 
+      "dataType": {
+        "field": [
+          {
+            "name": "steps", 
+            "format": "integer"
+          }
+        ], 
+        "name": "com.google.step_count.delta"
+      }, 
+      "dataQualityStandard": [], 
+      "application": {
+        "packageName": "com.google.android.gms", 
+        "version": "1"
+      }, 
+      "device": {
+        "model": "SAMSUNG-SM-G930A", 
+        "version": "", 
+        "type": "phone", 
+        "uid": "4b92c36f", 
+        "manufacturer": "samsung"
+      }, 
+      "dataStreamId": "derived:com.google.step_count.delta:com.google.android.gms:samsung:SAMSUNG-SM-G930A:4b92c36f:derive_step_deltas<-raw:com.google.step_count.cumulative:samsung:SAMSUNG-SM-G930A:4b92c36f:Step Counter", 
+      "type": "derived"
+    }, 
+    {
+      "dataStreamName": "derive_step_deltas<-raw:com.google.step_count.cumulative:samsung:SAMSUNG-SM-G930A:74ff53d7:Step Counter", 
+      "dataType": {
+        "field": [
+          {
+            "name": "steps", 
+            "format": "integer"
+          }
+        ], 
+        "name": "com.google.step_count.delta"
+      }, 
+      "dataQualityStandard": [], 
+      "application": {
+        "packageName": "com.google.android.gms"
+      }, 
+      "device": {
+        "model": "SAMSUNG-SM-G930A", 
+        "version": "", 
+        "type": "phone", 
+        "uid": "74ff53d7", 
+        "manufacturer": "samsung"
+      }, 
+      "dataStreamId": "derived:com.google.step_count.delta:com.google.android.gms:samsung:SAMSUNG-SM-G930A:74ff53d7:derive_step_deltas<-raw:com.google.step_count.cumulative:samsung:SAMSUNG-SM-G930A:74ff53d7:Step Counter", 
+      "type": "derived"
+    }, 
+    {
+      "dataStreamName": "derive_step_deltas<-raw:com.google.step_count.cumulative:samsung:SAMSUNG-SM-G930A:643394b0:Step Counter", 
+      "dataType": {
+        "field": [
+          {
+            "name": "steps", 
+            "format": "integer"
+          }
+        ], 
+        "name": "com.google.step_count.delta"
+      }, 
+      "dataQualityStandard": [], 
+      "application": {
+        "packageName": "com.google.android.gms"
+      }, 
+      "device": {
+        "model": "SAMSUNG-SM-G930A", 
+        "version": "", 
+        "type": "phone", 
+        "uid": "643394b0", 
+        "manufacturer": "samsung"
+      }, 
+      "dataStreamId": "derived:com.google.step_count.delta:com.google.android.gms:samsung:SAMSUNG-SM-G930A:643394b0:derive_step_deltas<-raw:com.google.step_count.cumulative:samsung:SAMSUNG-SM-G930A:643394b0:Step Counter", 
+      "type": "derived"
+    }, 
+    {
+      "dataStreamName": "derive_step_deltas<-raw:com.google.step_count.cumulative:samsung:SAMSUNG-SM-G930A:21f23d07:Step Counter", 
+      "dataType": {
+        "field": [
+          {
+            "name": "steps", 
+            "format": "integer"
+          }
+        ], 
+        "name": "com.google.step_count.delta"
+      }, 
+      "dataQualityStandard": [], 
+      "application": {
+        "packageName": "com.google.android.gms"
+      }, 
+      "device": {
+        "model": "SAMSUNG-SM-G930A", 
+        "version": "", 
+        "type": "phone", 
+        "uid": "21f23d07", 
+        "manufacturer": "samsung"
+      }, 
+      "dataStreamId": "derived:com.google.step_count.delta:com.google.android.gms:samsung:SAMSUNG-SM-G930A:21f23d07:derive_step_deltas<-raw:com.google.step_count.cumulative:samsung:SAMSUNG-SM-G930A:21f23d07:Step Counter", 
+      "type": "derived"
+    }, 
+    {
+      "name": "STEP_COUNT_DELTA", 
+      "dataStreamName": "", 
+      "dataType": {
+        "field": [
+          {
+            "name": "steps", 
+            "format": "integer"
+          }
+        ], 
+        "name": "com.google.step_count.delta"
+      }, 
+      "dataQualityStandard": [], 
+      "application": {
+        "packageName": "com.nike.plusgps"
+      }, 
+      "dataStreamId": "derived:com.google.step_count.delta:com.nike.plusgps:", 
+      "type": "derived"
+    }, 
+    {
+      "dataQualityStandard": [], 
+      "dataType": {
+        "field": [
+          {
+            "name": "weight", 
+            "format": "floatPoint"
+          }
+        ], 
+        "name": "com.google.weight"
+      }, 
+      "dataStreamName": "merge_weight", 
+      "application": {
+        "packageName": "com.google.android.gms", 
+        "version": ""
+      }, 
+      "dataStreamId": "derived:com.google.weight:com.google.android.gms:merge_weight", 
+      "type": "derived"
+    }, 
+    {
+      "dataStreamName": "user_input", 
+      "dataType": {
+        "field": [
+          {
+            "name": "activity", 
+            "format": "integer"
+          }
+        ], 
+        "name": "com.google.activity.segment"
+      }, 
+      "dataQualityStandard": [], 
+      "application": {
+        "packageName": "com.google.android.apps.fitness"
+      }, 
+      "device": {
+        "model": "Q Explorist HR", 
+        "version": "", 
+        "type": "watch", 
+        "uid": "c33c64dc", 
+        "manufacturer": "Compal"
+      }, 
+      "dataStreamId": "raw:com.google.activity.segment:com.google.android.apps.fitness:Compal:Q Explorist HR:c33c64dc:user_input", 
+      "type": "raw"
+    }, 
+    {
+      "dataQualityStandard": [], 
+      "dataType": {
+        "field": [
+          {
+            "name": "activity", 
+            "format": "integer"
+          }
+        ], 
+        "name": "com.google.activity.segment"
+      }, 
+      "dataStreamName": "user_input", 
+      "application": {
+        "packageName": "com.google.android.apps.fitness"
+      }, 
+      "dataStreamId": "raw:com.google.activity.segment:com.google.android.apps.fitness:user_input", 
+      "type": "raw"
+    }, 
+    {
+      "name": "My Tracks", 
+      "dataStreamName": "", 
+      "dataType": {
+        "field": [
+          {
+            "name": "activity", 
+            "format": "integer"
+          }
+        ], 
+        "name": "com.google.activity.segment"
+      }, 
+      "dataQualityStandard": [], 
+      "application": {
+        "packageName": "com.google.android.maps.mytracks"
+      }, 
+      "dataStreamId": "raw:com.google.activity.segment:com.google.android.maps.mytracks:", 
+      "type": "raw"
+    }, 
+    {
+      "dataQualityStandard": [], 
+      "dataType": {
+        "field": [
+          {
+            "name": "activity", 
+            "format": "integer"
+          }
+        ], 
+        "name": "com.google.activity.segment"
+      }, 
+      "dataStreamName": "", 
+      "application": {
+        "packageName": "com.urbandroid.sleep"
+      }, 
+      "dataStreamId": "raw:com.google.activity.segment:com.urbandroid.sleep:", 
+      "type": "raw"
+    }, 
+    {
+      "dataQualityStandard": [], 
+      "dataType": {
+        "field": [
+          {
+            "name": "blood_pressure_systolic", 
+            "format": "floatPoint"
+          }, 
+          {
+            "name": "blood_pressure_diastolic", 
+            "format": "floatPoint"
+          }, 
+          {
+            "optional": true, 
+            "name": "body_position", 
+            "format": "integer"
+          }, 
+          {
+            "optional": true, 
+            "name": "blood_pressure_measurement_location", 
+            "format": "integer"
+          }
+        ], 
+        "name": "com.google.blood_pressure"
+      }, 
+      "dataStreamName": "BloodPressure", 
+      "application": {
+        "version": "1", 
+        "name": "My Example App", 
+        "detailsUrl": "http://example.com"
+      }, 
+      "dataStreamId": "raw:com.google.blood_pressure:407408718192:BloodPressure", 
+      "type": "raw"
+    }, 
+    {
+      "dataQualityStandard": [], 
+      "dataType": {
+        "field": [
+          {
+            "name": "blood_pressure_systolic", 
+            "format": "floatPoint"
+          }, 
+          {
+            "name": "blood_pressure_diastolic", 
+            "format": "floatPoint"
+          }, 
+          {
+            "optional": true, 
+            "name": "body_position", 
+            "format": "integer"
+          }, 
+          {
+            "optional": true, 
+            "name": "blood_pressure_measurement_location", 
+            "format": "integer"
+          }
+        ], 
+        "name": "com.google.blood_pressure"
+      }, 
+      "dataStreamName": "user_input", 
+      "application": {
+        "packageName": "com.google.android.apps.fitness"
+      }, 
+      "dataStreamId": "raw:com.google.blood_pressure:com.google.android.apps.fitness:user_input", 
+      "type": "raw"
+    }, 
+    {
+      "name": "Generic ANT+ Sensor", 
+      "dataStreamName": "AntPlus.0.124", 
+      "dataType": {
+        "field": [
+          {
+            "name": "distance", 
+            "format": "floatPoint"
+          }
+        ], 
+        "name": "com.google.distance.delta"
+      }, 
+      "dataQualityStandard": [], 
+      "application": {
+        "packageName": "com.dsi.ant.plugins.antplus"
+      }, 
+      "dataStreamId": "raw:com.google.distance.delta:com.dsi.ant.plugins.antplus:AntPlus.0.124", 
+      "type": "raw"
+    }, 
+    {
+      "dataQualityStandard": [], 
+      "dataType": {
+        "field": [
+          {
+            "name": "bpm", 
+            "format": "floatPoint"
+          }
+        ], 
+        "name": "com.google.heart_rate.bpm"
+      }, 
+      "dataStreamName": "Heart Rate Monitor -Wakeup Secondary", 
+      "device": {
+        "model": "Q Explorist HR", 
+        "version": "", 
+        "type": "watch", 
+        "uid": "406b5320", 
+        "manufacturer": "Compal"
+      }, 
+      "dataStreamId": "raw:com.google.heart_rate.bpm:Compal:Q Explorist HR:406b5320:Heart Rate Monitor -Wakeup Secondary", 
+      "type": "raw"
+    }, 
+    {
+      "dataStreamName": "manual", 
+      "dataType": {
+        "field": [
+          {
+            "name": "bpm", 
+            "format": "floatPoint"
+          }
+        ], 
+        "name": "com.google.heart_rate.bpm"
+      }, 
+      "dataQualityStandard": [], 
+      "application": {
+        "packageName": "com.google.android.apps.fitness"
+      }, 
+      "device": {
+        "model": "Q Explorist HR", 
+        "version": "", 
+        "type": "watch", 
+        "uid": "c33c64dc", 
+        "manufacturer": "Compal"
+      }, 
+      "dataStreamId": "raw:com.google.heart_rate.bpm:com.google.android.apps.fitness:Compal:Q Explorist HR:c33c64dc:manual", 
+      "type": "raw"
+    }, 
+    {
+      "dataQualityStandard": [], 
+      "dataType": {
+        "field": [
+          {
+            "name": "bpm", 
+            "format": "floatPoint"
+          }
+        ], 
+        "name": "com.google.heart_rate.bpm"
+      }, 
+      "dataStreamName": "user_input", 
+      "application": {
+        "packageName": "com.google.android.apps.fitness"
+      }, 
+      "dataStreamId": "raw:com.google.heart_rate.bpm:com.google.android.apps.fitness:user_input", 
+      "type": "raw"
+    }, 
+    {
+      "dataQualityStandard": [], 
+      "dataType": {
+        "field": [
+          {
+            "name": "bpm", 
+            "format": "floatPoint"
+          }
+        ], 
+        "name": "com.google.heart_rate.bpm"
+      }, 
+      "dataStreamName": "Sleep - heart rate", 
+      "application": {
+        "packageName": "com.urbandroid.sleep"
+      }, 
+      "dataStreamId": "raw:com.google.heart_rate.bpm:com.urbandroid.sleep:Sleep - heart rate", 
+      "type": "raw"
+    }, 
+    {
+      "dataQualityStandard": [], 
+      "dataType": {
+        "field": [
+          {
+            "name": "height", 
+            "format": "floatPoint"
+          }
+        ], 
+        "name": "com.google.height"
+      }, 
+      "dataStreamName": "user_input", 
+      "application": {
+        "packageName": "com.google.android.apps.fitness"
+      }, 
+      "dataStreamId": "raw:com.google.height:com.google.android.apps.fitness:user_input", 
+      "type": "raw"
+    }, 
+    {
+      "name": "lifesum-nutrition", 
+      "dataStreamName": "", 
+      "dataType": {
+        "field": [
+          {
+            "name": "nutrients", 
+            "format": "map"
+          }, 
+          {
+            "optional": true, 
+            "name": "meal_type", 
+            "format": "integer"
+          }, 
+          {
+            "optional": true, 
+            "name": "food_item", 
+            "format": "string"
+          }
+        ], 
+        "name": "com.google.nutrition"
+      }, 
+      "dataQualityStandard": [], 
+      "application": {
+        "packageName": "com.sillens.shapeupclub"
+      }, 
+      "dataStreamId": "raw:com.google.nutrition:com.sillens.shapeupclub:", 
+      "type": "raw"
+    }, 
+    {
+      "dataQualityStandard": [], 
+      "dataType": {
+        "field": [
+          {
+            "name": "oxygen_saturation", 
+            "format": "floatPoint"
+          }, 
+          {
+            "name": "supplemental_oxygen_flow_rate", 
+            "format": "floatPoint"
+          }, 
+          {
+            "optional": true, 
+            "name": "oxygen_therapy_administration_mode", 
+            "format": "integer"
+          }, 
+          {
+            "optional": true, 
+            "name": "oxygen_saturation_system", 
+            "format": "integer"
+          }, 
+          {
+            "optional": true, 
+            "name": "oxygen_saturation_measurement_method", 
+            "format": "integer"
+          }
+        ], 
+        "name": "com.google.oxygen_saturation"
+      }, 
+      "dataStreamName": "user_input", 
+      "application": {
+        "packageName": "com.google.android.apps.fitness"
+      }, 
+      "dataStreamId": "raw:com.google.oxygen_saturation:com.google.android.apps.fitness:user_input", 
+      "type": "raw"
+    }, 
+    {
+      "dataQualityStandard": [], 
+      "dataType": {
+        "field": [
+          {
+            "name": "sleep_segment_type", 
+            "format": "integer"
+          }
+        ], 
+        "name": "com.google.sleep.segment"
+      }, 
+      "dataStreamName": "saa-generic", 
+      "application": {
+        "packageName": "com.urbandroid.sleep"
+      }, 
+      "dataStreamId": "raw:com.google.sleep.segment:com.urbandroid.sleep:saa-generic", 
+      "type": "raw"
+    }, 
+    {
+      "dataQualityStandard": [], 
+      "dataType": {
+        "field": [
+          {
+            "name": "steps", 
+            "format": "integer"
+          }
+        ], 
+        "name": "com.google.step_count.cumulative"
+      }, 
+      "dataStreamName": "Step Counter", 
+      "device": {
+        "model": "Q Explorist HR", 
+        "version": "", 
+        "type": "watch", 
+        "uid": "406b5320", 
+        "manufacturer": "Compal"
+      }, 
+      "dataStreamId": "raw:com.google.step_count.cumulative:Compal:Q Explorist HR:406b5320:Step Counter", 
+      "type": "raw"
+    }, 
+    {
+      "dataQualityStandard": [], 
+      "dataType": {
+        "field": [
+          {
+            "name": "steps", 
+            "format": "integer"
+          }
+        ], 
+        "name": "com.google.step_count.cumulative"
+      }, 
+      "dataStreamName": "STEP_COUNTER", 
+      "device": {
+        "model": "Redmi Note 8 Pro", 
+        "version": "", 
+        "type": "phone", 
+        "uid": "c1b4b9e3", 
+        "manufacturer": "Xiaomi"
+      }, 
+      "dataStreamId": "raw:com.google.step_count.cumulative:Xiaomi:Redmi Note 8 Pro:c1b4b9e3:STEP_COUNTER", 
+      "type": "raw"
+    }, 
+    {
+      "dataQualityStandard": [], 
+      "dataType": {
+        "field": [
+          {
+            "name": "steps", 
+            "format": "integer"
+          }
+        ], 
+        "name": "com.google.step_count.cumulative"
+      }, 
+      "dataStreamName": "SAMSUNG Step Counter Sensor", 
+      "device": {
+        "model": "GT-I9505G", 
+        "version": "", 
+        "type": "phone", 
+        "uid": "2dcefb02", 
+        "manufacturer": "samsung"
+      }, 
+      "dataStreamId": "raw:com.google.step_count.cumulative:samsung:GT-I9505G:2dcefb02:SAMSUNG Step Counter Sensor", 
+      "type": "raw"
+    }, 
+    {
+      "dataStreamName": "SAMSUNG Step Counter Sensor", 
+      "dataType": {
+        "field": [
+          {
+            "name": "steps", 
+            "format": "integer"
+          }
+        ], 
+        "name": "com.google.step_count.cumulative"
+      }, 
+      "dataQualityStandard": [], 
+      "application": {}, 
+      "device": {
+        "model": "GT-I9505G", 
+        "version": "", 
+        "type": "unknown", 
+        "uid": "3438a7d9", 
+        "manufacturer": "samsung"
+      }, 
+      "dataStreamId": "raw:com.google.step_count.cumulative:samsung:GT-I9505G:3438a7d9:SAMSUNG Step Counter Sensor", 
+      "type": "raw"
+    }, 
+    {
+      "dataQualityStandard": [], 
+      "dataType": {
+        "field": [
+          {
+            "name": "steps", 
+            "format": "integer"
+          }
+        ], 
+        "name": "com.google.step_count.cumulative"
+      }, 
+      "dataStreamName": "SAMSUNG Step Counter Sensor", 
+      "device": {
+        "model": "GT-I9505G", 
+        "version": "", 
+        "type": "phone", 
+        "uid": "46cecfa2", 
+        "manufacturer": "samsung"
+      }, 
+      "dataStreamId": "raw:com.google.step_count.cumulative:samsung:GT-I9505G:46cecfa2:SAMSUNG Step Counter Sensor", 
+      "type": "raw"
+    }, 
+    {
+      "dataQualityStandard": [], 
+      "dataType": {
+        "field": [
+          {
+            "name": "steps", 
+            "format": "integer"
+          }
+        ], 
+        "name": "com.google.step_count.cumulative"
+      }, 
+      "dataStreamName": "SAMSUNG Step Counter Sensor", 
+      "device": {
+        "model": "GT-I9505G", 
+        "version": "", 
+        "type": "phone", 
+        "uid": "674dd138", 
+        "manufacturer": "samsung"
+      }, 
+      "dataStreamId": "raw:com.google.step_count.cumulative:samsung:GT-I9505G:674dd138:SAMSUNG Step Counter Sensor", 
+      "type": "raw"
+    }, 
+    {
+      "dataStreamName": "SAMSUNG Step Counter Sensor", 
+      "dataType": {
+        "field": [
+          {
+            "name": "steps", 
+            "format": "integer"
+          }
+        ], 
+        "name": "com.google.step_count.cumulative"
+      }, 
+      "dataQualityStandard": [], 
+      "application": {}, 
+      "device": {
+        "model": "GT-I9505G", 
+        "version": "", 
+        "type": "phone", 
+        "uid": "dcb90c", 
+        "manufacturer": "samsung"
+      }, 
+      "dataStreamId": "raw:com.google.step_count.cumulative:samsung:GT-I9505G:dcb90c:SAMSUNG Step Counter Sensor", 
+      "type": "raw"
+    }, 
+    {
+      "dataQualityStandard": [], 
+      "dataType": {
+        "field": [
+          {
+            "name": "steps", 
+            "format": "integer"
+          }
+        ], 
+        "name": "com.google.step_count.cumulative"
+      }, 
+      "dataStreamName": "Step Counter", 
+      "device": {
+        "model": "SAMSUNG-SM-G930A", 
+        "version": "", 
+        "type": "phone", 
+        "uid": "4b92c36f", 
+        "manufacturer": "samsung"
+      }, 
+      "dataStreamId": "raw:com.google.step_count.cumulative:samsung:SAMSUNG-SM-G930A:4b92c36f:Step Counter", 
+      "type": "raw"
+    }, 
+    {
+      "dataQualityStandard": [], 
+      "dataType": {
+        "field": [
+          {
+            "name": "steps", 
+            "format": "integer"
+          }
+        ], 
+        "name": "com.google.step_count.cumulative"
+      }, 
+      "dataStreamName": "Step Counter", 
+      "device": {
+        "model": "SAMSUNG-SM-G930A", 
+        "version": "", 
+        "type": "phone", 
+        "uid": "74ff53d7", 
+        "manufacturer": "samsung"
+      }, 
+      "dataStreamId": "raw:com.google.step_count.cumulative:samsung:SAMSUNG-SM-G930A:74ff53d7:Step Counter", 
+      "type": "raw"
+    }, 
+    {
+      "dataQualityStandard": [], 
+      "dataType": {
+        "field": [
+          {
+            "name": "steps", 
+            "format": "integer"
+          }
+        ], 
+        "name": "com.google.step_count.cumulative"
+      }, 
+      "dataStreamName": "Step Counter", 
+      "device": {
+        "model": "SAMSUNG-SM-G930A", 
+        "version": "", 
+        "type": "phone", 
+        "uid": "643394b0", 
+        "manufacturer": "samsung"
+      }, 
+      "dataStreamId": "raw:com.google.step_count.cumulative:samsung:SAMSUNG-SM-G930A:643394b0:Step Counter", 
+      "type": "raw"
+    }, 
+    {
+      "dataQualityStandard": [], 
+      "dataType": {
+        "field": [
+          {
+            "name": "steps", 
+            "format": "integer"
+          }
+        ], 
+        "name": "com.google.step_count.cumulative"
+      }, 
+      "dataStreamName": "Step Counter", 
+      "device": {
+        "model": "SAMSUNG-SM-G930A", 
+        "version": "", 
+        "type": "phone", 
+        "uid": "21f23d07", 
+        "manufacturer": "samsung"
+      }, 
+      "dataStreamId": "raw:com.google.step_count.cumulative:samsung:SAMSUNG-SM-G930A:21f23d07:Step Counter", 
+      "type": "raw"
+    }, 
+    {
+      "name": "Generic ANT+ Sensor", 
+      "dataStreamName": "AntPlus.0.124", 
+      "dataType": {
+        "field": [
+          {
+            "name": "steps", 
+            "format": "integer"
+          }
+        ], 
+        "name": "com.google.step_count.delta"
+      }, 
+      "dataQualityStandard": [], 
+      "application": {
+        "packageName": "com.dsi.ant.plugins.antplus"
+      }, 
+      "dataStreamId": "raw:com.google.step_count.delta:com.dsi.ant.plugins.antplus:AntPlus.0.124", 
+      "type": "raw"
+    }, 
+    {
+      "dataQualityStandard": [], 
+      "dataType": {
+        "field": [
+          {
+            "name": "weight", 
+            "format": "floatPoint"
+          }
+        ], 
+        "name": "com.google.weight"
+      }, 
+      "dataStreamName": "", 
+      "application": {
+        "packageName": "cn.fitdays.fitdays"
+      }, 
+      "dataStreamId": "raw:com.google.weight:cn.fitdays.fitdays:", 
+      "type": "raw"
+    }, 
+    {
+      "dataQualityStandard": [], 
+      "dataType": {
+        "field": [
+          {
+            "name": "weight", 
+            "format": "floatPoint"
+          }
+        ], 
+        "name": "com.google.weight"
+      }, 
+      "dataStreamName": "user_input", 
+      "application": {
+        "packageName": "com.google.android.apps.fitness"
+      }, 
+      "dataStreamId": "raw:com.google.weight:com.google.android.apps.fitness:user_input", 
+      "type": "raw"
+    }
+  ]
+}
