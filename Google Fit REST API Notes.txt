@@ -3,7 +3,7 @@ https://fitness.googleapis.com/fitness/v1/users/me/dataSources
 GET /fitness/v1/users/me/dataSources HTTP/1.1
 Host: fitness.googleapis.com
 Content-length: 0
-Authorization: Bearer ya29.a0ARrdaM-e0Nrdce3IUFVZi4Ux59au06JJw5tFrlLARzI7rZHsYrDKFRCrVQJgCtzh-bMCacBD6jEKxlva0MUaVS2ZKzOEn5qhoj82CkySwMJ5yt4jHHl0THLxNPURh27LcMpy8C0tNlPf2ols5IL5pAJFU7HF
+Authorization: <redacted>
 
 HTTP/1.1 200 OK
 Content-length: 115252
